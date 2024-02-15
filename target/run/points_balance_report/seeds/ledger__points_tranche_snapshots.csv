@@ -1,0 +1,12 @@
+
+    
+    
+    truncate table "datamart"."datamart"."ledger__points_tranche_snapshots";
+    -- dbt seed --
+    
+          insert into "datamart"."datamart"."ledger__points_tranche_snapshots" ("id", "tenant_id", "user_id", "points_balance", "expired_on", "scd_id", "scd_updated_at", "scd_valid_from", "scd_valid_to") values
+          (%s,%s,%s,%s,%s,%s,%s,%s,%s),(%s,%s,%s,%s,%s,%s,%s,%s,%s),(%s,%s,%s,%s,%s,%s,%s,%s,%s),(%s,%s,%s,%s,%s,%s,%s,%s,%s),(%s,%s,%s,%s,%s,%s,%s,%s,%s),(%s,%s,%s,%s,%s,%s,%s,%s,%s),(%s,%s,%s,%s,%s,%s,%s,%s,%s),(%s,%s,%s,%s,%s,%s,%s,%s,%s)
+      
+
+;
+  

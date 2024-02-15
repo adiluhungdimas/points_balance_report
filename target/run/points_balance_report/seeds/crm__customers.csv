@@ -1,0 +1,12 @@
+
+    
+    
+    truncate table "datamart"."datamart"."crm__customers";
+    -- dbt seed --
+    
+          insert into "datamart"."datamart"."crm__customers" ("id", "external_id", "tenant_id") values
+          (%s,%s,%s),(%s,%s,%s),(%s,%s,%s),(%s,%s,%s)
+      
+
+;
+  

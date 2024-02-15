@@ -1,0 +1,1 @@
+{"_invocation_id": "dc3466de-bef7-4cdc-893e-3f454414e570", "linked": {"0": {"name": "model.points_balance_report.points_balance_report", "type": "model"}, "1": {"name": "seed.points_balance_report.crm__customers", "type": "seed", "succ": [0]}, "2": {"name": "seed.points_balance_report.ledger__points_tranche_snapshots", "type": "seed", "succ": [0]}}}
