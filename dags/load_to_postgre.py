@@ -22,12 +22,12 @@ dag = DAG(
 csv_path = "/Users/dimas.adiluhung/points_balance_report/seeds/"
 
 load_infos = [
-    {"csv_file": csv_path + "tenant_a/crm__customers.csv", "table_name": "raw_data.crm__customers_tenant_a"},
-    {"csv_file": csv_path + "tenant_b/crm__customers.csv", "table_name": "raw_data.crm__customers_tenant_b"},
-    {"csv_file": csv_path + "tenant_c/crm__customers.csv", "table_name": "raw_data.crm__customers_tenant_c"},
-    {"csv_file": csv_path + "tenant_a/ledger__points_tranche_snapshots.csv", "table_name": "raw_data.ledger__points_tranche_snapshots_tenant_a"},
-    {"csv_file": csv_path + "tenant_b/ledger__points_tranche_snapshots.csv", "table_name": "raw_data.ledger__points_tranche_snapshots_tenant_b"},
-    {"csv_file": csv_path + "tenant_c/ledger__points_tranche_snapshots.csv", "table_name": "raw_data.ledger__points_tranche_snapshots_tenant_c"},
+    {"csv_file": csv_path + "crm__customers_tenant_a.csv", "table_name": "raw_data.crm__customers_tenant_a"},
+    {"csv_file": csv_path + "crm__customers_tenant_b.csv", "table_name": "raw_data.crm__customers_tenant_b"},
+    {"csv_file": csv_path + "crm__customers_tenant_c.csv", "table_name": "raw_data.crm__customers_tenant_c"},
+    {"csv_file": csv_path + "ledger__points_tranche_snapshots_tenant_a.csv", "table_name": "raw_data.ledger__points_tranche_snapshots_tenant_a"},
+    {"csv_file": csv_path + "ledger__points_tranche_snapshots_tenant_b.csv", "table_name": "raw_data.ledger__points_tranche_snapshots_tenant_b"},
+    {"csv_file": csv_path + "ledger__points_tranche_snapshots_tenant_c.csv", "table_name": "raw_data.ledger__points_tranche_snapshots_tenant_c"},
 ]
 
 for load_info in load_infos:
