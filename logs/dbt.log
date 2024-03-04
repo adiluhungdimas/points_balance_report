@@ -9476,3 +9476,2087 @@ GROUP BY
 [0m13:43:10.151934 [debug] [MainThread]: Command `dbt run` succeeded at 13:43:10.151756 after 8.23 seconds
 [0m13:43:10.152544 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10767a3b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x112eb28c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x112f618d0>]}
 [0m13:43:10.153065 [debug] [MainThread]: Flushing usage events
+
+
+============================== 00:50:29.289774 | a72f113f-c17b-4b94-9571-75fd6521e68f ==============================
+[0m00:50:29.289774 [info ] [MainThread]: Running with dbt=1.7.7
+[0m00:50:29.297226 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'False', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'profiles_dir': '/Users/dimas.adiluhung/.dbt', 'log_path': '/Users/dimas.adiluhung/points_balance_report/logs', 'fail_fast': 'False', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt run --model crm_customers_tenant', 'static_parser': 'True', 'log_format': 'default', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'False'}
+[0m00:50:29.301123 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Could not find profile named 'points_balance_profile'
+[0m00:50:29.302642 [debug] [MainThread]: Resource report: {"command_name": "run", "command_wall_clock_time": 0.11067942, "process_user_time": 1.52386, "process_kernel_time": 0.324638, "process_mem_max_rss": "103776256", "command_success": false, "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m00:50:29.303144 [debug] [MainThread]: Command `dbt run` failed at 00:50:29.303035 after 0.11 seconds
+[0m00:50:29.303412 [debug] [MainThread]: Flushing usage events
+
+
+============================== 00:50:51.454242 | 8f6ca546-0c0f-4a02-9ead-1f47a96f475c ==============================
+[0m00:50:51.454242 [info ] [MainThread]: Running with dbt=1.7.7
+[0m00:50:51.457072 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'False', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'fail_fast': 'False', 'log_path': '/Users/dimas.adiluhung/points_balance_report/logs', 'profiles_dir': '/Users/dimas.adiluhung/.dbt', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'introspect': 'True', 'log_format': 'default', 'target_path': 'None', 'invocation_command': 'dbt run --model crm_customers_tenant —profiles-dir /Users/dimas.adiluhung/points_balance_report/profiles', 'send_anonymous_usage_stats': 'False'}
+[0m00:50:51.460625 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Could not find profile named 'points_balance_profile'
+[0m00:50:51.461976 [debug] [MainThread]: Resource report: {"command_name": "run", "command_wall_clock_time": 0.044806585, "process_user_time": 1.250306, "process_kernel_time": 0.19126, "process_mem_max_rss": "103612416", "command_success": false, "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m00:50:51.462448 [debug] [MainThread]: Command `dbt run` failed at 00:50:51.462343 after 0.05 seconds
+[0m00:50:51.462709 [debug] [MainThread]: Flushing usage events
+[0m00:51:02.053410 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10541a770>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107339360>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10733bf10>]}
+
+
+============================== 00:51:02.056586 | c76547b3-54e5-4474-ad98-35e52a22d269 ==============================
+[0m00:51:02.056586 [info ] [MainThread]: Running with dbt=1.7.7
+[0m00:51:02.057004 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'fail_fast': 'False', 'log_path': '/Users/dimas.adiluhung/points_balance_report/logs', 'profiles_dir': '/Users/dimas.adiluhung/points_balance_report/profiles', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'introspect': 'True', 'invocation_command': 'dbt run --model crm_customers_tenant --profiles-dir /Users/dimas.adiluhung/points_balance_report/profiles', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m00:51:02.257273 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'c76547b3-54e5-4474-ad98-35e52a22d269', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107339d50>]}
+[0m00:51:02.311653 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'c76547b3-54e5-4474-ad98-35e52a22d269', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10733a740>]}
+[0m00:51:02.315494 [info ] [MainThread]: Registered adapter: postgres=1.7.7
+[0m00:51:02.329745 [debug] [MainThread]: checksum: 54188551c516f4dd1c42b8d9c289f2bf49f18ae42632e2ba36a64ad29fd60da4, vars: {}, profile: , target: , version: 1.7.7
+[0m00:51:02.472321 [info ] [MainThread]: Unable to do partial parsing because config vars, config profile, or config target have changed
+[0m00:51:02.472700 [debug] [MainThread]: previous checksum: 54188551c516f4dd1c42b8d9c289f2bf49f18ae42632e2ba36a64ad29fd60da4, current checksum: f344d9c9f1d3a04b878c21c3daecb4d2d9c33fe2ad53529abc85436f6388f06a
+[0m00:51:02.472933 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': 'c76547b3-54e5-4474-ad98-35e52a22d269', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107d3f2e0>]}
+[0m00:51:04.123231 [error] [MainThread]: Encountered an error:
+Compilation Error
+  dbt found two seeds with the name "ledger__points_tranche_snapshots".
+  
+  Since these resources have the same name, dbt will be unable to find the correct resource
+  when looking for ref("ledger__points_tranche_snapshots").
+  
+  To fix this, change the name of one of these resources:
+  - seed.points_balance_report.ledger__points_tranche_snapshots (seeds/tenant_c/ledger__points_tranche_snapshots.csv)
+  - seed.points_balance_report.ledger__points_tranche_snapshots (seeds/tenant_a/ledger__points_tranche_snapshots.csv)
+[0m00:51:04.125996 [debug] [MainThread]: Resource report: {"command_name": "run", "command_wall_clock_time": 2.1130853, "process_user_time": 1.996089, "process_kernel_time": 0.261519, "process_mem_max_rss": "115802112", "command_success": false, "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m00:51:04.126410 [debug] [MainThread]: Command `dbt run` failed at 00:51:04.126319 after 2.11 seconds
+[0m00:51:04.126689 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10541a770>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1080d6e60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1080d6c20>]}
+[0m00:51:04.126960 [debug] [MainThread]: Flushing usage events
+[0m00:55:14.870632 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108236770>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10c8db910>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10c8d9450>]}
+
+
+============================== 00:55:14.873849 | cbc351cd-4402-43ad-9220-5313d4ae7553 ==============================
+[0m00:55:14.873849 [info ] [MainThread]: Running with dbt=1.7.7
+[0m00:55:14.874293 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'profiles_dir': '/Users/dimas.adiluhung/points_balance_report/profiles', 'log_path': '/Users/dimas.adiluhung/points_balance_report/logs', 'debug': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'log_format': 'default', 'invocation_command': 'dbt run --model crm_customers_tenant --profiles-dir /Users/dimas.adiluhung/points_balance_report/profiles', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m00:55:15.020280 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'cbc351cd-4402-43ad-9220-5313d4ae7553', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10c8d8820>]}
+[0m00:55:15.076265 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'cbc351cd-4402-43ad-9220-5313d4ae7553', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10c8dbfa0>]}
+[0m00:55:15.076981 [info ] [MainThread]: Registered adapter: postgres=1.7.7
+[0m00:55:15.087823 [debug] [MainThread]: checksum: 54188551c516f4dd1c42b8d9c289f2bf49f18ae42632e2ba36a64ad29fd60da4, vars: {}, profile: , target: , version: 1.7.7
+[0m00:55:15.129258 [info ] [MainThread]: Unable to do partial parsing because config vars, config profile, or config target have changed
+[0m00:55:15.129627 [debug] [MainThread]: previous checksum: 54188551c516f4dd1c42b8d9c289f2bf49f18ae42632e2ba36a64ad29fd60da4, current checksum: f344d9c9f1d3a04b878c21c3daecb4d2d9c33fe2ad53529abc85436f6388f06a
+[0m00:55:15.129862 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': 'cbc351cd-4402-43ad-9220-5313d4ae7553', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10d23af80>]}
+[0m00:55:15.941818 [error] [MainThread]: Encountered an error:
+Compilation Error
+  Model 'model.points_balance_report.crm__customers_tenant' (models/crm__customers_tenant.sql) depends on a source named 'raw_data.crm__customer_tenant_tenant_a' which was not found
+[0m00:55:15.950446 [debug] [MainThread]: Resource report: {"command_name": "run", "command_wall_clock_time": 1.1149948, "process_user_time": 2.024211, "process_kernel_time": 0.245441, "process_mem_max_rss": "117964800", "command_success": false, "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m00:55:15.950945 [debug] [MainThread]: Command `dbt run` failed at 00:55:15.950852 after 1.12 seconds
+[0m00:55:15.951219 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108236770>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10e2042b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10e207f70>]}
+[0m00:55:15.951485 [debug] [MainThread]: Flushing usage events
+[0m00:56:03.182617 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1205341c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x122915a50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x122917f10>]}
+
+
+============================== 00:56:03.189060 | b4c9dce3-bd2f-4e7a-a2d2-29681bb5022f ==============================
+[0m00:56:03.189060 [info ] [MainThread]: Running with dbt=1.7.7
+[0m00:56:03.189672 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/dimas.adiluhung/points_balance_report/profiles', 'version_check': 'True', 'fail_fast': 'False', 'log_path': '/Users/dimas.adiluhung/points_balance_report/logs', 'debug': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'target_path': 'None', 'invocation_command': 'dbt run --model crm_customers_tenant --profiles-dir /Users/dimas.adiluhung/points_balance_report/profiles', 'send_anonymous_usage_stats': 'True'}
+[0m00:56:03.664174 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'b4c9dce3-bd2f-4e7a-a2d2-29681bb5022f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x122be3ac0>]}
+[0m00:56:03.721673 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'b4c9dce3-bd2f-4e7a-a2d2-29681bb5022f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x122be04f0>]}
+[0m00:56:03.752549 [info ] [MainThread]: Registered adapter: postgres=1.7.7
+[0m00:56:03.911010 [debug] [MainThread]: checksum: 54188551c516f4dd1c42b8d9c289f2bf49f18ae42632e2ba36a64ad29fd60da4, vars: {}, profile: , target: , version: 1.7.7
+[0m00:56:03.950283 [info ] [MainThread]: Unable to do partial parsing because config vars, config profile, or config target have changed
+[0m00:56:03.950654 [debug] [MainThread]: previous checksum: 54188551c516f4dd1c42b8d9c289f2bf49f18ae42632e2ba36a64ad29fd60da4, current checksum: f344d9c9f1d3a04b878c21c3daecb4d2d9c33fe2ad53529abc85436f6388f06a
+[0m00:56:03.950887 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': 'b4c9dce3-bd2f-4e7a-a2d2-29681bb5022f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1235bd2a0>]}
+[0m00:56:04.913438 [error] [MainThread]: Encountered an error:
+Compilation Error
+  Model 'model.points_balance_report.crm__customers_tenant' (models/crm__customers_tenant.sql) depends on a source named 'raw_data.crm__customer_tenant_tenant_a' which was not found
+[0m00:56:05.098711 [debug] [MainThread]: Resource report: {"command_name": "run", "command_wall_clock_time": 2.2773628, "process_user_time": 2.384303, "process_kernel_time": 0.410263, "process_mem_max_rss": "119832576", "command_success": false, "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m00:56:05.100146 [debug] [MainThread]: Command `dbt run` failed at 00:56:05.099873 after 2.28 seconds
+[0m00:56:05.100900 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1205341c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x12383c220>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x123a04820>]}
+[0m00:56:05.101588 [debug] [MainThread]: Flushing usage events
+[0m00:57:38.221471 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106e6f280>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108d8f910>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108d8d450>]}
+
+
+============================== 00:57:38.228519 | 3583e78a-9bd7-4d36-bd4f-85e56c08604b ==============================
+[0m00:57:38.228519 [info ] [MainThread]: Running with dbt=1.7.7
+[0m00:57:38.229566 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/dimas.adiluhung/points_balance_report/profiles', 'version_check': 'True', 'debug': 'False', 'log_path': '/Users/dimas.adiluhung/points_balance_report/logs', 'warn_error': 'None', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'introspect': 'True', 'log_format': 'default', 'target_path': 'None', 'invocation_command': 'dbt run --model crm_customers_tenant --profiles-dir /Users/dimas.adiluhung/points_balance_report/profiles', 'send_anonymous_usage_stats': 'True'}
+[0m00:57:38.772400 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '3583e78a-9bd7-4d36-bd4f-85e56c08604b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108d8c820>]}
+[0m00:57:38.844953 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '3583e78a-9bd7-4d36-bd4f-85e56c08604b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108d8ffa0>]}
+[0m00:57:38.916100 [info ] [MainThread]: Registered adapter: postgres=1.7.7
+[0m00:57:38.943010 [debug] [MainThread]: checksum: 54188551c516f4dd1c42b8d9c289f2bf49f18ae42632e2ba36a64ad29fd60da4, vars: {}, profile: , target: , version: 1.7.7
+[0m00:57:38.981493 [info ] [MainThread]: Unable to do partial parsing because config vars, config profile, or config target have changed
+[0m00:57:38.981878 [debug] [MainThread]: previous checksum: 54188551c516f4dd1c42b8d9c289f2bf49f18ae42632e2ba36a64ad29fd60da4, current checksum: f344d9c9f1d3a04b878c21c3daecb4d2d9c33fe2ad53529abc85436f6388f06a
+[0m00:57:38.982106 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '3583e78a-9bd7-4d36-bd4f-85e56c08604b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1093d6f80>]}
+[0m00:57:40.054091 [error] [MainThread]: Encountered an error:
+Compilation Error
+  Model 'model.points_balance_report.points_balance_report' (models/points_balance_report.sql) depends on a node named 'crm__customers' which was not found
+[0m00:57:40.232703 [debug] [MainThread]: Resource report: {"command_name": "run", "command_wall_clock_time": 2.3244386, "process_user_time": 2.407949, "process_kernel_time": 0.392267, "process_mem_max_rss": "120455168", "command_success": false, "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m00:57:40.234013 [debug] [MainThread]: Command `dbt run` failed at 00:57:40.233700 after 2.33 seconds
+[0m00:57:40.234717 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106e6f280>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10bb62fe0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10bb608b0>]}
+[0m00:57:40.235232 [debug] [MainThread]: Flushing usage events
+[0m00:58:27.961824 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1047e81c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106c14f10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106c16530>]}
+
+
+============================== 00:58:27.968996 | 4c946bdf-8647-4a76-ba9e-4560854e9c1d ==============================
+[0m00:58:27.968996 [info ] [MainThread]: Running with dbt=1.7.7
+[0m00:58:27.969649 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/dimas.adiluhung/points_balance_report/profiles', 'version_check': 'True', 'warn_error': 'None', 'log_path': '/Users/dimas.adiluhung/points_balance_report/logs', 'debug': 'False', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'target_path': 'None', 'invocation_command': 'dbt run --model crm_customers_tenant --profiles-dir /Users/dimas.adiluhung/points_balance_report/profiles', 'send_anonymous_usage_stats': 'True'}
+[0m00:58:28.605997 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '4c946bdf-8647-4a76-ba9e-4560854e9c1d', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106c17340>]}
+[0m00:58:28.665030 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '4c946bdf-8647-4a76-ba9e-4560854e9c1d', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105e88610>]}
+[0m00:58:28.706981 [info ] [MainThread]: Registered adapter: postgres=1.7.7
+[0m00:58:28.749493 [debug] [MainThread]: checksum: 54188551c516f4dd1c42b8d9c289f2bf49f18ae42632e2ba36a64ad29fd60da4, vars: {}, profile: , target: , version: 1.7.7
+[0m00:58:28.786644 [info ] [MainThread]: Unable to do partial parsing because config vars, config profile, or config target have changed
+[0m00:58:28.787035 [debug] [MainThread]: previous checksum: 54188551c516f4dd1c42b8d9c289f2bf49f18ae42632e2ba36a64ad29fd60da4, current checksum: f344d9c9f1d3a04b878c21c3daecb4d2d9c33fe2ad53529abc85436f6388f06a
+[0m00:58:28.787265 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '4c946bdf-8647-4a76-ba9e-4560854e9c1d', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1070cca00>]}
+[0m00:58:29.941442 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '4c946bdf-8647-4a76-ba9e-4560854e9c1d', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107d38280>]}
+[0m00:58:30.382893 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '4c946bdf-8647-4a76-ba9e-4560854e9c1d', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1075f1c60>]}
+[0m00:58:30.384663 [info ] [MainThread]: Found 2 models, 8 seeds, 6 sources, 0 exposures, 0 metrics, 401 macros, 0 groups, 0 semantic models
+[0m00:58:30.385734 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '4c946bdf-8647-4a76-ba9e-4560854e9c1d', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107723ac0>]}
+[0m00:58:30.387151 [warn ] [MainThread]: The selection criterion 'crm_customers_tenant' does not match any nodes
+[0m00:58:30.388981 [info ] [MainThread]: 
+[0m00:58:30.389680 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m00:58:30.390716 [debug] [MainThread]: Command end result
+[0m00:58:30.437394 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": true, "command_wall_clock_time": 2.771044, "process_user_time": 2.444094, "process_kernel_time": 0.404838, "process_mem_max_rss": "124076032", "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m00:58:30.438655 [debug] [MainThread]: Command `dbt run` succeeded at 00:58:30.438465 after 2.77 seconds
+[0m00:58:30.439133 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1047e81c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10755b040>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107a3c4c0>]}
+[0m00:58:30.439562 [debug] [MainThread]: Flushing usage events
+[0m00:58:55.852310 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108a36770>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10aed9360>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10aedbf10>]}
+
+
+============================== 00:58:55.858823 | eee0ea2a-ecac-42a6-af3a-bbe297009e36 ==============================
+[0m00:58:55.858823 [info ] [MainThread]: Running with dbt=1.7.7
+[0m00:58:55.859576 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'fail_fast': 'False', 'log_path': '/Users/dimas.adiluhung/points_balance_report/logs', 'version_check': 'True', 'profiles_dir': '/Users/dimas.adiluhung/points_balance_report/profiles', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'invocation_command': 'dbt run --model crm__customers_tenant --profiles-dir /Users/dimas.adiluhung/points_balance_report/profiles', 'static_parser': 'True', 'introspect': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m00:58:56.428911 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'eee0ea2a-ecac-42a6-af3a-bbe297009e36', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10aed9d50>]}
+[0m00:58:56.492208 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'eee0ea2a-ecac-42a6-af3a-bbe297009e36', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10aeda740>]}
+[0m00:58:56.513705 [info ] [MainThread]: Registered adapter: postgres=1.7.7
+[0m00:58:56.635555 [debug] [MainThread]: checksum: 54188551c516f4dd1c42b8d9c289f2bf49f18ae42632e2ba36a64ad29fd60da4, vars: {}, profile: , target: , version: 1.7.7
+[0m00:58:56.967467 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m00:58:56.967973 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m00:58:56.974021 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'eee0ea2a-ecac-42a6-af3a-bbe297009e36', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10bc8d600>]}
+[0m00:58:56.987720 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'eee0ea2a-ecac-42a6-af3a-bbe297009e36', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10bc502b0>]}
+[0m00:58:56.988144 [info ] [MainThread]: Found 2 models, 8 seeds, 6 sources, 0 exposures, 0 metrics, 401 macros, 0 groups, 0 semantic models
+[0m00:58:56.988481 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'eee0ea2a-ecac-42a6-af3a-bbe297009e36', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10bc501f0>]}
+[0m00:58:56.989479 [info ] [MainThread]: 
+[0m00:58:56.990223 [debug] [MainThread]: Acquiring new postgres connection 'master'
+[0m00:58:56.991077 [debug] [ThreadPool]: Acquiring new postgres connection 'list_datamart'
+[0m00:58:56.998478 [debug] [ThreadPool]: Using postgres connection "list_datamart"
+[0m00:58:56.998803 [debug] [ThreadPool]: On list_datamart: /* {"app": "dbt", "dbt_version": "1.7.7", "profile_name": "points_balance_profile", "target_name": "dev", "connection_name": "list_datamart"} */
+
+    select distinct nspname from pg_namespace
+  
+[0m00:58:56.999052 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m00:58:57.302004 [debug] [ThreadPool]: SQL status: SELECT 10 in 0.0 seconds
+[0m00:58:57.306551 [debug] [ThreadPool]: On list_datamart: Close
+[0m00:58:57.310179 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_datamart, now list_datamart_datamart)
+[0m00:58:57.319526 [debug] [ThreadPool]: Using postgres connection "list_datamart_datamart"
+[0m00:58:57.320116 [debug] [ThreadPool]: On list_datamart_datamart: BEGIN
+[0m00:58:57.320538 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m00:58:57.341628 [debug] [ThreadPool]: SQL status: BEGIN in 0.0 seconds
+[0m00:58:57.342201 [debug] [ThreadPool]: Using postgres connection "list_datamart_datamart"
+[0m00:58:57.342632 [debug] [ThreadPool]: On list_datamart_datamart: /* {"app": "dbt", "dbt_version": "1.7.7", "profile_name": "points_balance_profile", "target_name": "dev", "connection_name": "list_datamart_datamart"} */
+select
+      'datamart' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'datamart'
+    union all
+    select
+      'datamart' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'datamart'
+    union all
+    select
+      'datamart' as database,
+      matviewname as name,
+      schemaname as schema,
+      'materialized_view' as type
+    from pg_matviews
+    where schemaname ilike 'datamart'
+  
+[0m00:58:57.446846 [debug] [ThreadPool]: SQL status: SELECT 3 in 0.0 seconds
+[0m00:58:57.448982 [debug] [ThreadPool]: On list_datamart_datamart: ROLLBACK
+[0m00:58:57.450121 [debug] [ThreadPool]: On list_datamart_datamart: Close
+[0m00:58:57.459339 [debug] [MainThread]: Using postgres connection "master"
+[0m00:58:57.459938 [debug] [MainThread]: On master: BEGIN
+[0m00:58:57.460354 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m00:58:57.482773 [debug] [MainThread]: SQL status: BEGIN in 0.0 seconds
+[0m00:58:57.483364 [debug] [MainThread]: Using postgres connection "master"
+[0m00:58:57.483990 [debug] [MainThread]: On master: /* {"app": "dbt", "dbt_version": "1.7.7", "profile_name": "points_balance_profile", "target_name": "dev", "connection_name": "master"} */
+with relation as (
+        select
+            pg_rewrite.ev_class as class,
+            pg_rewrite.oid as id
+        from pg_rewrite
+    ),
+    class as (
+        select
+            oid as id,
+            relname as name,
+            relnamespace as schema,
+            relkind as kind
+        from pg_class
+    ),
+    dependency as (
+        select distinct
+            pg_depend.objid as id,
+            pg_depend.refobjid as ref
+        from pg_depend
+    ),
+    schema as (
+        select
+            pg_namespace.oid as id,
+            pg_namespace.nspname as name
+        from pg_namespace
+        where nspname != 'information_schema' and nspname not like 'pg\_%'
+    ),
+    referenced as (
+        select
+            relation.id AS id,
+            referenced_class.name ,
+            referenced_class.schema ,
+            referenced_class.kind
+        from relation
+        join class as referenced_class on relation.class=referenced_class.id
+        where referenced_class.kind in ('r', 'v', 'm')
+    ),
+    relationships as (
+        select
+            referenced.name as referenced_name,
+            referenced.schema as referenced_schema_id,
+            dependent_class.name as dependent_name,
+            dependent_class.schema as dependent_schema_id,
+            referenced.kind as kind
+        from referenced
+        join dependency on referenced.id=dependency.id
+        join class as dependent_class on dependency.ref=dependent_class.id
+        where
+            (referenced.name != dependent_class.name or
+             referenced.schema != dependent_class.schema)
+    )
+
+    select
+        referenced_schema.name as referenced_schema,
+        relationships.referenced_name as referenced_name,
+        dependent_schema.name as dependent_schema,
+        relationships.dependent_name as dependent_name
+    from relationships
+    join schema as dependent_schema on relationships.dependent_schema_id=dependent_schema.id
+    join schema as referenced_schema on relationships.referenced_schema_id=referenced_schema.id
+    group by referenced_schema, referenced_name, dependent_schema, dependent_name
+    order by referenced_schema, referenced_name, dependent_schema, dependent_name;
+[0m00:58:57.532512 [debug] [MainThread]: SQL status: SELECT 0 in 0.0 seconds
+[0m00:58:57.534091 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'eee0ea2a-ecac-42a6-af3a-bbe297009e36', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10bce05b0>]}
+[0m00:58:57.534646 [debug] [MainThread]: On master: ROLLBACK
+[0m00:58:57.535436 [debug] [MainThread]: Using postgres connection "master"
+[0m00:58:57.535916 [debug] [MainThread]: On master: BEGIN
+[0m00:58:57.536660 [debug] [MainThread]: SQL status: BEGIN in 0.0 seconds
+[0m00:58:57.536984 [debug] [MainThread]: On master: COMMIT
+[0m00:58:57.537255 [debug] [MainThread]: Using postgres connection "master"
+[0m00:58:57.537508 [debug] [MainThread]: On master: COMMIT
+[0m00:58:57.537979 [debug] [MainThread]: SQL status: COMMIT in 0.0 seconds
+[0m00:58:57.538250 [debug] [MainThread]: On master: Close
+[0m00:58:57.538821 [info ] [MainThread]: Concurrency: 8 threads (target='dev')
+[0m00:58:57.539117 [info ] [MainThread]: 
+[0m00:58:57.633635 [debug] [Thread-1 (]: Began running node model.points_balance_report.crm__customers_tenant
+[0m00:58:57.634455 [info ] [Thread-1 (]: 1 of 1 START sql incremental model datamart.crm__customers_tenant .............. [RUN]
+[0m00:58:57.635360 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly list_datamart_datamart, now model.points_balance_report.crm__customers_tenant)
+[0m00:58:57.635833 [debug] [Thread-1 (]: Began compiling node model.points_balance_report.crm__customers_tenant
+[0m00:58:57.644718 [debug] [Thread-1 (]: Writing injected SQL for node "model.points_balance_report.crm__customers_tenant"
+[0m00:58:57.645671 [debug] [Thread-1 (]: Timing info for model.points_balance_report.crm__customers_tenant (compile): 00:58:57.636113 => 00:58:57.645427
+[0m00:58:57.646063 [debug] [Thread-1 (]: Began executing node model.points_balance_report.crm__customers_tenant
+[0m00:58:57.685916 [debug] [Thread-1 (]: Writing runtime sql for node "model.points_balance_report.crm__customers_tenant"
+[0m00:58:57.686876 [debug] [Thread-1 (]: Using postgres connection "model.points_balance_report.crm__customers_tenant"
+[0m00:58:57.687142 [debug] [Thread-1 (]: On model.points_balance_report.crm__customers_tenant: BEGIN
+[0m00:58:57.687387 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m00:58:57.821579 [debug] [Thread-1 (]: SQL status: BEGIN in 0.0 seconds
+[0m00:58:57.822032 [debug] [Thread-1 (]: Using postgres connection "model.points_balance_report.crm__customers_tenant"
+[0m00:58:57.822437 [debug] [Thread-1 (]: On model.points_balance_report.crm__customers_tenant: /* {"app": "dbt", "dbt_version": "1.7.7", "profile_name": "points_balance_profile", "target_name": "dev", "node_id": "model.points_balance_report.crm__customers_tenant"} */
+
+      
+  
+    
+
+  create  table "datamart"."datamart"."crm__customers_tenant"
+  
+  
+    as
+  
+  (
+     
+
+SELECT 
+  *
+FROM
+  "datamart"."raw_data"."crm__customer_tenant_a"UNION ALL
+
+ 
+
+SELECT 
+  *
+FROM
+  "datamart"."raw_data"."crm__customer_tenant_b"UNION ALL
+
+ 
+
+SELECT 
+  *
+FROM
+  "datamart"."raw_data"."crm__customer_tenant_c"
+  );
+  
+  
+[0m00:58:57.825417 [debug] [Thread-1 (]: Postgres adapter: Postgres error: relation "raw_data.crm__customer_tenant_a" does not exist
+LINE 18:   "datamart"."raw_data"."crm__customer_tenant_a"UNION ALL
+           ^
+
+[0m00:58:57.825732 [debug] [Thread-1 (]: On model.points_balance_report.crm__customers_tenant: ROLLBACK
+[0m00:58:57.826488 [debug] [Thread-1 (]: Timing info for model.points_balance_report.crm__customers_tenant (execute): 00:58:57.646285 => 00:58:57.826336
+[0m00:58:57.826759 [debug] [Thread-1 (]: On model.points_balance_report.crm__customers_tenant: Close
+[0m00:58:58.125817 [debug] [Thread-1 (]: Database Error in model crm__customers_tenant (models/crm__customers_tenant.sql)
+  relation "raw_data.crm__customer_tenant_a" does not exist
+  LINE 18:   "datamart"."raw_data"."crm__customer_tenant_a"UNION ALL
+             ^
+  compiled Code at target/run/points_balance_report/models/crm__customers_tenant.sql
+[0m00:58:58.127160 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'eee0ea2a-ecac-42a6-af3a-bbe297009e36', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10bcc4970>]}
+[0m00:58:58.128704 [error] [Thread-1 (]: 1 of 1 ERROR creating sql incremental model datamart.crm__customers_tenant ..... [[31mERROR[0m in 0.49s]
+[0m00:58:58.130115 [debug] [Thread-1 (]: Finished running node model.points_balance_report.crm__customers_tenant
+[0m00:58:58.132840 [debug] [MainThread]: Using postgres connection "master"
+[0m00:58:58.133474 [debug] [MainThread]: On master: BEGIN
+[0m00:58:58.133979 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m00:58:58.164791 [debug] [MainThread]: SQL status: BEGIN in 0.0 seconds
+[0m00:58:58.165692 [debug] [MainThread]: On master: COMMIT
+[0m00:58:58.166315 [debug] [MainThread]: Using postgres connection "master"
+[0m00:58:58.166710 [debug] [MainThread]: On master: COMMIT
+[0m00:58:58.169095 [debug] [MainThread]: SQL status: COMMIT in 0.0 seconds
+[0m00:58:58.169634 [debug] [MainThread]: On master: Close
+[0m00:58:58.170569 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m00:58:58.170939 [debug] [MainThread]: Connection 'model.points_balance_report.crm__customers_tenant' was properly closed.
+[0m00:58:58.171337 [info ] [MainThread]: 
+[0m00:58:58.171751 [info ] [MainThread]: Finished running 1 incremental model in 0 hours 0 minutes and 1.18 seconds (1.18s).
+[0m00:58:58.172497 [debug] [MainThread]: Command end result
+[0m00:58:58.184111 [info ] [MainThread]: 
+[0m00:58:58.184565 [info ] [MainThread]: [31mCompleted with 1 error and 0 warnings:[0m
+[0m00:58:58.184892 [info ] [MainThread]: 
+[0m00:58:58.185209 [error] [MainThread]:   Database Error in model crm__customers_tenant (models/crm__customers_tenant.sql)
+  relation "raw_data.crm__customer_tenant_a" does not exist
+  LINE 18:   "datamart"."raw_data"."crm__customer_tenant_a"UNION ALL
+             ^
+  compiled Code at target/run/points_balance_report/models/crm__customers_tenant.sql
+[0m00:58:58.185518 [info ] [MainThread]: 
+[0m00:58:58.185833 [info ] [MainThread]: Done. PASS=0 WARN=0 ERROR=1 SKIP=0 TOTAL=1
+[0m00:58:58.187863 [debug] [MainThread]: Resource report: {"command_name": "run", "command_wall_clock_time": 2.5234604, "process_user_time": 2.012889, "process_kernel_time": 0.403175, "process_mem_max_rss": "125468672", "command_success": false, "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m00:58:58.188464 [debug] [MainThread]: Command `dbt run` failed at 00:58:58.188339 after 2.52 seconds
+[0m00:58:58.188843 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108a36770>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10aeda740>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10bc4b550>]}
+[0m00:58:58.189204 [debug] [MainThread]: Flushing usage events
+[0m00:59:17.353335 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x113337340>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1160d9270>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1160da620>]}
+
+
+============================== 00:59:17.384032 | 9a815a9c-02a3-4465-b3df-7b32559f1d67 ==============================
+[0m00:59:17.384032 [info ] [MainThread]: Running with dbt=1.7.7
+[0m00:59:17.384509 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/dimas.adiluhung/points_balance_report/profiles', 'debug': 'False', 'version_check': 'True', 'log_path': '/Users/dimas.adiluhung/points_balance_report/logs', 'fail_fast': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'invocation_command': 'dbt run --model crm__customers_tenant --profiles-dir /Users/dimas.adiluhung/points_balance_report/profiles', 'introspect': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m00:59:17.734316 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '9a815a9c-02a3-4465-b3df-7b32559f1d67', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1160d9720>]}
+[0m00:59:17.784942 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '9a815a9c-02a3-4465-b3df-7b32559f1d67', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x116577d00>]}
+[0m00:59:17.824529 [info ] [MainThread]: Registered adapter: postgres=1.7.7
+[0m00:59:17.971557 [debug] [MainThread]: checksum: 54188551c516f4dd1c42b8d9c289f2bf49f18ae42632e2ba36a64ad29fd60da4, vars: {}, profile: , target: , version: 1.7.7
+[0m00:59:18.411193 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+[0m00:59:18.412363 [debug] [MainThread]: Partial parsing: updated file: points_balance_report://models/crm__customers_tenant.sql
+[0m00:59:18.508016 [error] [MainThread]: Encountered an error:
+Compilation Error
+  Model 'model.points_balance_report.crm__customers_tenant' (models/crm__customers_tenant.sql) depends on a source named 'raw_data.crm__customers_tenant_a' which was not found
+[0m00:59:18.564849 [debug] [MainThread]: Resource report: {"command_name": "run", "command_wall_clock_time": 1.260196, "process_user_time": 1.932667, "process_kernel_time": 0.365686, "process_mem_max_rss": "115589120", "command_success": false, "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m00:59:18.565406 [debug] [MainThread]: Command `dbt run` failed at 00:59:18.565297 after 1.26 seconds
+[0m00:59:18.565736 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x113337340>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x116a3a830>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x116c16380>]}
+[0m00:59:18.566081 [debug] [MainThread]: Flushing usage events
+[0m01:00:15.569318 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105489b70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1102d8f10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1102da530>]}
+
+
+============================== 01:00:15.575612 | bca7374a-9705-4ba2-a362-6144af8a6fa7 ==============================
+[0m01:00:15.575612 [info ] [MainThread]: Running with dbt=1.7.7
+[0m01:00:15.576293 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'debug': 'False', 'log_path': '/Users/dimas.adiluhung/points_balance_report/logs', 'profiles_dir': '/Users/dimas.adiluhung/points_balance_report/profiles', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'target_path': 'None', 'invocation_command': 'dbt run --model crm__customers_tenant --profiles-dir /Users/dimas.adiluhung/points_balance_report/profiles', 'send_anonymous_usage_stats': 'True'}
+[0m01:00:16.009164 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'bca7374a-9705-4ba2-a362-6144af8a6fa7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1102db340>]}
+[0m01:00:16.065100 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'bca7374a-9705-4ba2-a362-6144af8a6fa7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x110be2a10>]}
+[0m01:00:16.091891 [info ] [MainThread]: Registered adapter: postgres=1.7.7
+[0m01:00:16.191737 [debug] [MainThread]: checksum: 54188551c516f4dd1c42b8d9c289f2bf49f18ae42632e2ba36a64ad29fd60da4, vars: {}, profile: , target: , version: 1.7.7
+[0m01:00:16.591588 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 2 files changed.
+[0m01:00:16.592712 [debug] [MainThread]: Partial parsing: updated file: points_balance_report://models/sources.yml
+[0m01:00:16.593183 [debug] [MainThread]: Partial parsing: updated file: points_balance_report://models/crm__customers_tenant.sql
+[0m01:00:16.788764 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'bca7374a-9705-4ba2-a362-6144af8a6fa7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x110ff9fc0>]}
+[0m01:00:16.962346 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'bca7374a-9705-4ba2-a362-6144af8a6fa7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x110d784c0>]}
+[0m01:00:16.963699 [info ] [MainThread]: Found 2 models, 8 seeds, 6 sources, 0 exposures, 0 metrics, 401 macros, 0 groups, 0 semantic models
+[0m01:00:16.964505 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'bca7374a-9705-4ba2-a362-6144af8a6fa7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x110e28550>]}
+[0m01:00:16.966603 [info ] [MainThread]: 
+[0m01:00:16.967827 [debug] [MainThread]: Acquiring new postgres connection 'master'
+[0m01:00:16.969733 [debug] [ThreadPool]: Acquiring new postgres connection 'list_datamart'
+[0m01:00:16.983188 [debug] [ThreadPool]: Using postgres connection "list_datamart"
+[0m01:00:16.983752 [debug] [ThreadPool]: On list_datamart: /* {"app": "dbt", "dbt_version": "1.7.7", "profile_name": "points_balance_profile", "target_name": "dev", "connection_name": "list_datamart"} */
+
+    select distinct nspname from pg_namespace
+  
+[0m01:00:16.984150 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m01:00:17.251521 [debug] [ThreadPool]: SQL status: SELECT 10 in 0.0 seconds
+[0m01:00:17.252774 [debug] [ThreadPool]: On list_datamart: Close
+[0m01:00:17.254211 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_datamart, now list_datamart_datamart)
+[0m01:00:17.258508 [debug] [ThreadPool]: Using postgres connection "list_datamart_datamart"
+[0m01:00:17.260407 [debug] [ThreadPool]: On list_datamart_datamart: BEGIN
+[0m01:00:17.262949 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m01:00:17.290688 [debug] [ThreadPool]: SQL status: BEGIN in 0.0 seconds
+[0m01:00:17.291041 [debug] [ThreadPool]: Using postgres connection "list_datamart_datamart"
+[0m01:00:17.291337 [debug] [ThreadPool]: On list_datamart_datamart: /* {"app": "dbt", "dbt_version": "1.7.7", "profile_name": "points_balance_profile", "target_name": "dev", "connection_name": "list_datamart_datamart"} */
+select
+      'datamart' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'datamart'
+    union all
+    select
+      'datamart' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'datamart'
+    union all
+    select
+      'datamart' as database,
+      matviewname as name,
+      schemaname as schema,
+      'materialized_view' as type
+    from pg_matviews
+    where schemaname ilike 'datamart'
+  
+[0m01:00:17.501688 [debug] [ThreadPool]: SQL status: SELECT 3 in 0.0 seconds
+[0m01:00:17.505727 [debug] [ThreadPool]: On list_datamart_datamart: ROLLBACK
+[0m01:00:17.507358 [debug] [ThreadPool]: On list_datamart_datamart: Close
+[0m01:00:17.516310 [debug] [MainThread]: Using postgres connection "master"
+[0m01:00:17.516851 [debug] [MainThread]: On master: BEGIN
+[0m01:00:17.517277 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m01:00:17.542858 [debug] [MainThread]: SQL status: BEGIN in 0.0 seconds
+[0m01:00:17.543469 [debug] [MainThread]: Using postgres connection "master"
+[0m01:00:17.544223 [debug] [MainThread]: On master: /* {"app": "dbt", "dbt_version": "1.7.7", "profile_name": "points_balance_profile", "target_name": "dev", "connection_name": "master"} */
+with relation as (
+        select
+            pg_rewrite.ev_class as class,
+            pg_rewrite.oid as id
+        from pg_rewrite
+    ),
+    class as (
+        select
+            oid as id,
+            relname as name,
+            relnamespace as schema,
+            relkind as kind
+        from pg_class
+    ),
+    dependency as (
+        select distinct
+            pg_depend.objid as id,
+            pg_depend.refobjid as ref
+        from pg_depend
+    ),
+    schema as (
+        select
+            pg_namespace.oid as id,
+            pg_namespace.nspname as name
+        from pg_namespace
+        where nspname != 'information_schema' and nspname not like 'pg\_%'
+    ),
+    referenced as (
+        select
+            relation.id AS id,
+            referenced_class.name ,
+            referenced_class.schema ,
+            referenced_class.kind
+        from relation
+        join class as referenced_class on relation.class=referenced_class.id
+        where referenced_class.kind in ('r', 'v', 'm')
+    ),
+    relationships as (
+        select
+            referenced.name as referenced_name,
+            referenced.schema as referenced_schema_id,
+            dependent_class.name as dependent_name,
+            dependent_class.schema as dependent_schema_id,
+            referenced.kind as kind
+        from referenced
+        join dependency on referenced.id=dependency.id
+        join class as dependent_class on dependency.ref=dependent_class.id
+        where
+            (referenced.name != dependent_class.name or
+             referenced.schema != dependent_class.schema)
+    )
+
+    select
+        referenced_schema.name as referenced_schema,
+        relationships.referenced_name as referenced_name,
+        dependent_schema.name as dependent_schema,
+        relationships.dependent_name as dependent_name
+    from relationships
+    join schema as dependent_schema on relationships.dependent_schema_id=dependent_schema.id
+    join schema as referenced_schema on relationships.referenced_schema_id=referenced_schema.id
+    group by referenced_schema, referenced_name, dependent_schema, dependent_name
+    order by referenced_schema, referenced_name, dependent_schema, dependent_name;
+[0m01:00:17.580295 [debug] [MainThread]: SQL status: SELECT 0 in 0.0 seconds
+[0m01:00:17.581250 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'bca7374a-9705-4ba2-a362-6144af8a6fa7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11105f910>]}
+[0m01:00:17.581613 [debug] [MainThread]: On master: ROLLBACK
+[0m01:00:17.582149 [debug] [MainThread]: Using postgres connection "master"
+[0m01:00:17.582400 [debug] [MainThread]: On master: BEGIN
+[0m01:00:17.582846 [debug] [MainThread]: SQL status: BEGIN in 0.0 seconds
+[0m01:00:17.583079 [debug] [MainThread]: On master: COMMIT
+[0m01:00:17.583307 [debug] [MainThread]: Using postgres connection "master"
+[0m01:00:17.583528 [debug] [MainThread]: On master: COMMIT
+[0m01:00:17.583922 [debug] [MainThread]: SQL status: COMMIT in 0.0 seconds
+[0m01:00:17.584159 [debug] [MainThread]: On master: Close
+[0m01:00:17.584659 [info ] [MainThread]: Concurrency: 8 threads (target='dev')
+[0m01:00:17.584924 [info ] [MainThread]: 
+[0m01:00:17.627561 [debug] [Thread-1 (]: Began running node model.points_balance_report.crm__customers_tenant
+[0m01:00:17.628073 [info ] [Thread-1 (]: 1 of 1 START sql incremental model datamart.crm__customers_tenant .............. [RUN]
+[0m01:00:17.628672 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly list_datamart_datamart, now model.points_balance_report.crm__customers_tenant)
+[0m01:00:17.629052 [debug] [Thread-1 (]: Began compiling node model.points_balance_report.crm__customers_tenant
+[0m01:00:17.636638 [debug] [Thread-1 (]: Writing injected SQL for node "model.points_balance_report.crm__customers_tenant"
+[0m01:00:17.637921 [debug] [Thread-1 (]: Timing info for model.points_balance_report.crm__customers_tenant (compile): 01:00:17.629272 => 01:00:17.637681
+[0m01:00:17.638306 [debug] [Thread-1 (]: Began executing node model.points_balance_report.crm__customers_tenant
+[0m01:00:17.673989 [debug] [Thread-1 (]: Writing runtime sql for node "model.points_balance_report.crm__customers_tenant"
+[0m01:00:17.674772 [debug] [Thread-1 (]: Using postgres connection "model.points_balance_report.crm__customers_tenant"
+[0m01:00:17.675102 [debug] [Thread-1 (]: On model.points_balance_report.crm__customers_tenant: BEGIN
+[0m01:00:17.675379 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m01:00:17.967506 [debug] [Thread-1 (]: SQL status: BEGIN in 0.0 seconds
+[0m01:00:17.969122 [debug] [Thread-1 (]: Using postgres connection "model.points_balance_report.crm__customers_tenant"
+[0m01:00:17.969937 [debug] [Thread-1 (]: On model.points_balance_report.crm__customers_tenant: /* {"app": "dbt", "dbt_version": "1.7.7", "profile_name": "points_balance_profile", "target_name": "dev", "node_id": "model.points_balance_report.crm__customers_tenant"} */
+
+      
+  
+    
+
+  create  table "datamart"."datamart"."crm__customers_tenant"
+  
+  
+    as
+  
+  (
+     
+
+SELECT 
+  *
+FROM
+  "datamart"."raw_data"."crm__customers_tenant_a"UNION ALL
+
+ 
+
+SELECT 
+  *
+FROM
+  "datamart"."raw_data"."crm__customers_tenant_b"UNION ALL
+
+ 
+
+SELECT 
+  *
+FROM
+  "datamart"."raw_data"."crm__customers_tenant_c"
+  );
+  
+  
+[0m01:00:18.073573 [debug] [Thread-1 (]: SQL status: SELECT 24 in 0.0 seconds
+[0m01:00:18.102930 [debug] [Thread-1 (]: On model.points_balance_report.crm__customers_tenant: COMMIT
+[0m01:00:18.103688 [debug] [Thread-1 (]: Using postgres connection "model.points_balance_report.crm__customers_tenant"
+[0m01:00:18.104096 [debug] [Thread-1 (]: On model.points_balance_report.crm__customers_tenant: COMMIT
+[0m01:00:18.125581 [debug] [Thread-1 (]: SQL status: COMMIT in 0.0 seconds
+[0m01:00:18.127113 [debug] [Thread-1 (]: Timing info for model.points_balance_report.crm__customers_tenant (execute): 01:00:17.638500 => 01:00:18.126827
+[0m01:00:18.127731 [debug] [Thread-1 (]: On model.points_balance_report.crm__customers_tenant: Close
+[0m01:00:18.128746 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'bca7374a-9705-4ba2-a362-6144af8a6fa7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x110be1840>]}
+[0m01:00:18.129487 [info ] [Thread-1 (]: 1 of 1 OK created sql incremental model datamart.crm__customers_tenant ......... [[32mSELECT 24[0m in 0.50s]
+[0m01:00:18.130168 [debug] [Thread-1 (]: Finished running node model.points_balance_report.crm__customers_tenant
+[0m01:00:18.131914 [debug] [MainThread]: Using postgres connection "master"
+[0m01:00:18.132428 [debug] [MainThread]: On master: BEGIN
+[0m01:00:18.132769 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m01:00:18.206068 [debug] [MainThread]: SQL status: BEGIN in 0.0 seconds
+[0m01:00:18.206758 [debug] [MainThread]: On master: COMMIT
+[0m01:00:18.207127 [debug] [MainThread]: Using postgres connection "master"
+[0m01:00:18.207466 [debug] [MainThread]: On master: COMMIT
+[0m01:00:18.208216 [debug] [MainThread]: SQL status: COMMIT in 0.0 seconds
+[0m01:00:18.208784 [debug] [MainThread]: On master: Close
+[0m01:00:18.209608 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m01:00:18.209944 [debug] [MainThread]: Connection 'model.points_balance_report.crm__customers_tenant' was properly closed.
+[0m01:00:18.210346 [info ] [MainThread]: 
+[0m01:00:18.210742 [info ] [MainThread]: Finished running 1 incremental model in 0 hours 0 minutes and 1.24 seconds (1.24s).
+[0m01:00:18.211464 [debug] [MainThread]: Command end result
+[0m01:00:18.313301 [info ] [MainThread]: 
+[0m01:00:18.314177 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m01:00:18.314715 [info ] [MainThread]: 
+[0m01:00:18.315200 [info ] [MainThread]: Done. PASS=1 WARN=0 ERROR=0 SKIP=0 TOTAL=1
+[0m01:00:18.318030 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": true, "command_wall_clock_time": 2.9723382, "process_user_time": 2.187565, "process_kernel_time": 0.434966, "process_mem_max_rss": "129794048", "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m01:00:18.318676 [debug] [MainThread]: Command `dbt run` succeeded at 01:00:18.318538 after 2.97 seconds
+[0m01:00:18.319155 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105489b70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x110be2a10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x110e28520>]}
+[0m01:00:18.319627 [debug] [MainThread]: Flushing usage events
+[0m01:01:40.618558 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x12032c1c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x123115a50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x123117f10>]}
+
+
+============================== 01:01:40.624897 | e778b4a1-ca20-4827-9bcb-b1ed5766ceb7 ==============================
+[0m01:01:40.624897 [info ] [MainThread]: Running with dbt=1.7.7
+[0m01:01:40.625585 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/dimas.adiluhung/points_balance_report/profiles', 'debug': 'False', 'version_check': 'True', 'log_path': '/Users/dimas.adiluhung/points_balance_report/logs', 'fail_fast': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'invocation_command': 'dbt run --model improved_crm__customers --profiles-dir /Users/dimas.adiluhung/points_balance_report/profiles', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m01:01:41.370341 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'e778b4a1-ca20-4827-9bcb-b1ed5766ceb7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x12321fac0>]}
+[0m01:01:41.444268 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'e778b4a1-ca20-4827-9bcb-b1ed5766ceb7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x12321c4f0>]}
+[0m01:01:41.469711 [info ] [MainThread]: Registered adapter: postgres=1.7.7
+[0m01:01:41.490906 [debug] [MainThread]: checksum: 54188551c516f4dd1c42b8d9c289f2bf49f18ae42632e2ba36a64ad29fd60da4, vars: {}, profile: , target: , version: 1.7.7
+[0m01:01:41.960121 [debug] [MainThread]: Partial parsing enabled: 1 files deleted, 1 files added, 0 files changed.
+[0m01:01:41.960978 [debug] [MainThread]: Partial parsing: added file: points_balance_report://models/improved_crm__customers.sql
+[0m01:01:41.961351 [debug] [MainThread]: Partial parsing: deleted file: points_balance_report://models/crm__customers_tenant.sql
+[0m01:01:42.205341 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'e778b4a1-ca20-4827-9bcb-b1ed5766ceb7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x123ec55d0>]}
+[0m01:01:42.220011 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'e778b4a1-ca20-4827-9bcb-b1ed5766ceb7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x123e11a20>]}
+[0m01:01:42.220463 [info ] [MainThread]: Found 2 models, 8 seeds, 6 sources, 0 exposures, 0 metrics, 401 macros, 0 groups, 0 semantic models
+[0m01:01:42.220820 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'e778b4a1-ca20-4827-9bcb-b1ed5766ceb7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x123e13fd0>]}
+[0m01:01:42.221854 [info ] [MainThread]: 
+[0m01:01:42.222484 [debug] [MainThread]: Acquiring new postgres connection 'master'
+[0m01:01:42.223479 [debug] [ThreadPool]: Acquiring new postgres connection 'list_datamart'
+[0m01:01:42.231916 [debug] [ThreadPool]: Using postgres connection "list_datamart"
+[0m01:01:42.232266 [debug] [ThreadPool]: On list_datamart: /* {"app": "dbt", "dbt_version": "1.7.7", "profile_name": "points_balance_profile", "target_name": "dev", "connection_name": "list_datamart"} */
+
+    select distinct nspname from pg_namespace
+  
+[0m01:01:42.232537 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m01:01:42.471042 [debug] [ThreadPool]: SQL status: SELECT 10 in 0.0 seconds
+[0m01:01:42.473073 [debug] [ThreadPool]: On list_datamart: Close
+[0m01:01:42.475474 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_datamart, now list_datamart_datamart)
+[0m01:01:42.481298 [debug] [ThreadPool]: Using postgres connection "list_datamart_datamart"
+[0m01:01:42.481645 [debug] [ThreadPool]: On list_datamart_datamart: BEGIN
+[0m01:01:42.481931 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m01:01:42.605905 [debug] [ThreadPool]: SQL status: BEGIN in 0.0 seconds
+[0m01:01:42.606651 [debug] [ThreadPool]: Using postgres connection "list_datamart_datamart"
+[0m01:01:42.607222 [debug] [ThreadPool]: On list_datamart_datamart: /* {"app": "dbt", "dbt_version": "1.7.7", "profile_name": "points_balance_profile", "target_name": "dev", "connection_name": "list_datamart_datamart"} */
+select
+      'datamart' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'datamart'
+    union all
+    select
+      'datamart' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'datamart'
+    union all
+    select
+      'datamart' as database,
+      matviewname as name,
+      schemaname as schema,
+      'materialized_view' as type
+    from pg_matviews
+    where schemaname ilike 'datamart'
+  
+[0m01:01:42.634587 [debug] [ThreadPool]: SQL status: SELECT 4 in 0.0 seconds
+[0m01:01:42.636647 [debug] [ThreadPool]: On list_datamart_datamart: ROLLBACK
+[0m01:01:42.637646 [debug] [ThreadPool]: On list_datamart_datamart: Close
+[0m01:01:42.644775 [debug] [MainThread]: Using postgres connection "master"
+[0m01:01:42.645258 [debug] [MainThread]: On master: BEGIN
+[0m01:01:42.645618 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m01:01:42.667407 [debug] [MainThread]: SQL status: BEGIN in 0.0 seconds
+[0m01:01:42.668046 [debug] [MainThread]: Using postgres connection "master"
+[0m01:01:42.668579 [debug] [MainThread]: On master: /* {"app": "dbt", "dbt_version": "1.7.7", "profile_name": "points_balance_profile", "target_name": "dev", "connection_name": "master"} */
+with relation as (
+        select
+            pg_rewrite.ev_class as class,
+            pg_rewrite.oid as id
+        from pg_rewrite
+    ),
+    class as (
+        select
+            oid as id,
+            relname as name,
+            relnamespace as schema,
+            relkind as kind
+        from pg_class
+    ),
+    dependency as (
+        select distinct
+            pg_depend.objid as id,
+            pg_depend.refobjid as ref
+        from pg_depend
+    ),
+    schema as (
+        select
+            pg_namespace.oid as id,
+            pg_namespace.nspname as name
+        from pg_namespace
+        where nspname != 'information_schema' and nspname not like 'pg\_%'
+    ),
+    referenced as (
+        select
+            relation.id AS id,
+            referenced_class.name ,
+            referenced_class.schema ,
+            referenced_class.kind
+        from relation
+        join class as referenced_class on relation.class=referenced_class.id
+        where referenced_class.kind in ('r', 'v', 'm')
+    ),
+    relationships as (
+        select
+            referenced.name as referenced_name,
+            referenced.schema as referenced_schema_id,
+            dependent_class.name as dependent_name,
+            dependent_class.schema as dependent_schema_id,
+            referenced.kind as kind
+        from referenced
+        join dependency on referenced.id=dependency.id
+        join class as dependent_class on dependency.ref=dependent_class.id
+        where
+            (referenced.name != dependent_class.name or
+             referenced.schema != dependent_class.schema)
+    )
+
+    select
+        referenced_schema.name as referenced_schema,
+        relationships.referenced_name as referenced_name,
+        dependent_schema.name as dependent_schema,
+        relationships.dependent_name as dependent_name
+    from relationships
+    join schema as dependent_schema on relationships.dependent_schema_id=dependent_schema.id
+    join schema as referenced_schema on relationships.referenced_schema_id=referenced_schema.id
+    group by referenced_schema, referenced_name, dependent_schema, dependent_name
+    order by referenced_schema, referenced_name, dependent_schema, dependent_name;
+[0m01:01:42.703490 [debug] [MainThread]: SQL status: SELECT 0 in 0.0 seconds
+[0m01:01:42.704474 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'e778b4a1-ca20-4827-9bcb-b1ed5766ceb7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x123ecbfa0>]}
+[0m01:01:42.704864 [debug] [MainThread]: On master: ROLLBACK
+[0m01:01:42.705526 [debug] [MainThread]: Using postgres connection "master"
+[0m01:01:42.705971 [debug] [MainThread]: On master: BEGIN
+[0m01:01:42.706701 [debug] [MainThread]: SQL status: BEGIN in 0.0 seconds
+[0m01:01:42.707027 [debug] [MainThread]: On master: COMMIT
+[0m01:01:42.707296 [debug] [MainThread]: Using postgres connection "master"
+[0m01:01:42.707592 [debug] [MainThread]: On master: COMMIT
+[0m01:01:42.708184 [debug] [MainThread]: SQL status: COMMIT in 0.0 seconds
+[0m01:01:42.708464 [debug] [MainThread]: On master: Close
+[0m01:01:42.709094 [info ] [MainThread]: Concurrency: 8 threads (target='dev')
+[0m01:01:42.709475 [info ] [MainThread]: 
+[0m01:01:42.711885 [debug] [Thread-1 (]: Began running node model.points_balance_report.improved_crm__customers
+[0m01:01:42.712384 [info ] [Thread-1 (]: 1 of 1 START sql incremental model datamart.improved_crm__customers ............ [RUN]
+[0m01:01:42.712975 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly list_datamart_datamart, now model.points_balance_report.improved_crm__customers)
+[0m01:01:42.713326 [debug] [Thread-1 (]: Began compiling node model.points_balance_report.improved_crm__customers
+[0m01:01:42.720080 [debug] [Thread-1 (]: Writing injected SQL for node "model.points_balance_report.improved_crm__customers"
+[0m01:01:42.720945 [debug] [Thread-1 (]: Timing info for model.points_balance_report.improved_crm__customers (compile): 01:01:42.713518 => 01:01:42.720718
+[0m01:01:42.721281 [debug] [Thread-1 (]: Began executing node model.points_balance_report.improved_crm__customers
+[0m01:01:42.756527 [debug] [Thread-1 (]: Writing runtime sql for node "model.points_balance_report.improved_crm__customers"
+[0m01:01:42.757526 [debug] [Thread-1 (]: Using postgres connection "model.points_balance_report.improved_crm__customers"
+[0m01:01:42.757778 [debug] [Thread-1 (]: On model.points_balance_report.improved_crm__customers: BEGIN
+[0m01:01:42.758006 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m01:01:42.859297 [debug] [Thread-1 (]: SQL status: BEGIN in 0.0 seconds
+[0m01:01:42.859895 [debug] [Thread-1 (]: Using postgres connection "model.points_balance_report.improved_crm__customers"
+[0m01:01:42.860301 [debug] [Thread-1 (]: On model.points_balance_report.improved_crm__customers: /* {"app": "dbt", "dbt_version": "1.7.7", "profile_name": "points_balance_profile", "target_name": "dev", "node_id": "model.points_balance_report.improved_crm__customers"} */
+
+      
+  
+    
+
+  create  table "datamart"."datamart"."improved_crm__customers"
+  
+  
+    as
+  
+  (
+     
+
+SELECT 
+  *
+FROM
+  "datamart"."raw_data"."crm__customers_tenant_a"UNION ALL
+
+ 
+
+SELECT 
+  *
+FROM
+  "datamart"."raw_data"."crm__customers_tenant_b"UNION ALL
+
+ 
+
+SELECT 
+  *
+FROM
+  "datamart"."raw_data"."crm__customers_tenant_c"
+  );
+  
+  
+[0m01:01:43.020875 [debug] [Thread-1 (]: SQL status: SELECT 24 in 0.0 seconds
+[0m01:01:43.048975 [debug] [Thread-1 (]: On model.points_balance_report.improved_crm__customers: COMMIT
+[0m01:01:43.049578 [debug] [Thread-1 (]: Using postgres connection "model.points_balance_report.improved_crm__customers"
+[0m01:01:43.049973 [debug] [Thread-1 (]: On model.points_balance_report.improved_crm__customers: COMMIT
+[0m01:01:43.052702 [debug] [Thread-1 (]: SQL status: COMMIT in 0.0 seconds
+[0m01:01:43.054158 [debug] [Thread-1 (]: Timing info for model.points_balance_report.improved_crm__customers (execute): 01:01:42.721464 => 01:01:43.053908
+[0m01:01:43.054641 [debug] [Thread-1 (]: On model.points_balance_report.improved_crm__customers: Close
+[0m01:01:43.055486 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'e778b4a1-ca20-4827-9bcb-b1ed5766ceb7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x123b37e20>]}
+[0m01:01:43.056130 [info ] [Thread-1 (]: 1 of 1 OK created sql incremental model datamart.improved_crm__customers ....... [[32mSELECT 24[0m in 0.34s]
+[0m01:01:43.056729 [debug] [Thread-1 (]: Finished running node model.points_balance_report.improved_crm__customers
+[0m01:01:43.058629 [debug] [MainThread]: Using postgres connection "master"
+[0m01:01:43.059192 [debug] [MainThread]: On master: BEGIN
+[0m01:01:43.059741 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m01:01:43.101834 [debug] [MainThread]: SQL status: BEGIN in 0.0 seconds
+[0m01:01:43.102261 [debug] [MainThread]: On master: COMMIT
+[0m01:01:43.102615 [debug] [MainThread]: Using postgres connection "master"
+[0m01:01:43.103085 [debug] [MainThread]: On master: COMMIT
+[0m01:01:43.103682 [debug] [MainThread]: SQL status: COMMIT in 0.0 seconds
+[0m01:01:43.104020 [debug] [MainThread]: On master: Close
+[0m01:01:43.104594 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m01:01:43.104972 [debug] [MainThread]: Connection 'model.points_balance_report.improved_crm__customers' was properly closed.
+[0m01:01:43.105275 [info ] [MainThread]: 
+[0m01:01:43.105574 [info ] [MainThread]: Finished running 1 incremental model in 0 hours 0 minutes and 0.88 seconds (0.88s).
+[0m01:01:43.106085 [debug] [MainThread]: Command end result
+[0m01:01:43.254617 [info ] [MainThread]: 
+[0m01:01:43.255585 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m01:01:43.256239 [info ] [MainThread]: 
+[0m01:01:43.256823 [info ] [MainThread]: Done. PASS=1 WARN=0 ERROR=0 SKIP=0 TOTAL=1
+[0m01:01:43.314399 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": true, "command_wall_clock_time": 2.8921838, "process_user_time": 2.083455, "process_kernel_time": 0.420035, "process_mem_max_rss": "126500864", "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m01:01:43.315518 [debug] [MainThread]: Command `dbt run` succeeded at 01:01:43.315330 after 2.89 seconds
+[0m01:01:43.316129 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x12032c1c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x12321fac0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x123154640>]}
+[0m01:01:43.316693 [debug] [MainThread]: Flushing usage events
+[0m01:04:21.282704 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107d2ded0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1222d91b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1222da110>]}
+
+
+============================== 01:04:21.288614 | 51b319e9-8e29-4eb6-a197-28198857c55e ==============================
+[0m01:04:21.288614 [info ] [MainThread]: Running with dbt=1.7.7
+[0m01:04:21.289264 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'fail_fast': 'False', 'log_path': '/Users/dimas.adiluhung/points_balance_report/logs', 'version_check': 'True', 'profiles_dir': '/Users/dimas.adiluhung/points_balance_report/profiles', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'static_parser': 'True', 'invocation_command': 'dbt run --model improved_ledger__points_tranche_snapshots --profiles-dir /Users/dimas.adiluhung/points_balance_report/profiles', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m01:04:21.583825 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '51b319e9-8e29-4eb6-a197-28198857c55e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1222da560>]}
+[0m01:04:21.635084 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '51b319e9-8e29-4eb6-a197-28198857c55e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1222dbfa0>]}
+[0m01:04:21.656326 [info ] [MainThread]: Registered adapter: postgres=1.7.7
+[0m01:04:21.862996 [debug] [MainThread]: checksum: 54188551c516f4dd1c42b8d9c289f2bf49f18ae42632e2ba36a64ad29fd60da4, vars: {}, profile: , target: , version: 1.7.7
+[0m01:04:22.242207 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 1 files added, 0 files changed.
+[0m01:04:22.243271 [debug] [MainThread]: Partial parsing: added file: points_balance_report://models/improved_ledger__points_tranche_snapshots.sql
+[0m01:04:22.368298 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '51b319e9-8e29-4eb6-a197-28198857c55e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x124dd59f0>]}
+[0m01:04:22.640719 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '51b319e9-8e29-4eb6-a197-28198857c55e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x124cbf130>]}
+[0m01:04:22.642546 [info ] [MainThread]: Found 3 models, 8 seeds, 6 sources, 0 exposures, 0 metrics, 401 macros, 0 groups, 0 semantic models
+[0m01:04:22.643678 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '51b319e9-8e29-4eb6-a197-28198857c55e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1222d9660>]}
+[0m01:04:22.646631 [info ] [MainThread]: 
+[0m01:04:22.648335 [debug] [MainThread]: Acquiring new postgres connection 'master'
+[0m01:04:22.650441 [debug] [ThreadPool]: Acquiring new postgres connection 'list_datamart'
+[0m01:04:22.664522 [debug] [ThreadPool]: Using postgres connection "list_datamart"
+[0m01:04:22.665105 [debug] [ThreadPool]: On list_datamart: /* {"app": "dbt", "dbt_version": "1.7.7", "profile_name": "points_balance_profile", "target_name": "dev", "connection_name": "list_datamart"} */
+
+    select distinct nspname from pg_namespace
+  
+[0m01:04:22.665490 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m01:04:23.127611 [debug] [ThreadPool]: SQL status: SELECT 10 in 0.0 seconds
+[0m01:04:23.130649 [debug] [ThreadPool]: On list_datamart: Close
+[0m01:04:23.134644 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_datamart, now list_datamart_datamart)
+[0m01:04:23.143614 [debug] [ThreadPool]: Using postgres connection "list_datamart_datamart"
+[0m01:04:23.144260 [debug] [ThreadPool]: On list_datamart_datamart: BEGIN
+[0m01:04:23.144688 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m01:04:23.194278 [debug] [ThreadPool]: SQL status: BEGIN in 0.0 seconds
+[0m01:04:23.195009 [debug] [ThreadPool]: Using postgres connection "list_datamart_datamart"
+[0m01:04:23.195711 [debug] [ThreadPool]: On list_datamart_datamart: /* {"app": "dbt", "dbt_version": "1.7.7", "profile_name": "points_balance_profile", "target_name": "dev", "connection_name": "list_datamart_datamart"} */
+select
+      'datamart' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'datamart'
+    union all
+    select
+      'datamart' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'datamart'
+    union all
+    select
+      'datamart' as database,
+      matviewname as name,
+      schemaname as schema,
+      'materialized_view' as type
+    from pg_matviews
+    where schemaname ilike 'datamart'
+  
+[0m01:04:23.265658 [debug] [ThreadPool]: SQL status: SELECT 5 in 0.0 seconds
+[0m01:04:23.270168 [debug] [ThreadPool]: On list_datamart_datamart: ROLLBACK
+[0m01:04:23.272036 [debug] [ThreadPool]: On list_datamart_datamart: Close
+[0m01:04:23.281632 [debug] [MainThread]: Using postgres connection "master"
+[0m01:04:23.282183 [debug] [MainThread]: On master: BEGIN
+[0m01:04:23.282604 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m01:04:23.309476 [debug] [MainThread]: SQL status: BEGIN in 0.0 seconds
+[0m01:04:23.310275 [debug] [MainThread]: Using postgres connection "master"
+[0m01:04:23.311018 [debug] [MainThread]: On master: /* {"app": "dbt", "dbt_version": "1.7.7", "profile_name": "points_balance_profile", "target_name": "dev", "connection_name": "master"} */
+with relation as (
+        select
+            pg_rewrite.ev_class as class,
+            pg_rewrite.oid as id
+        from pg_rewrite
+    ),
+    class as (
+        select
+            oid as id,
+            relname as name,
+            relnamespace as schema,
+            relkind as kind
+        from pg_class
+    ),
+    dependency as (
+        select distinct
+            pg_depend.objid as id,
+            pg_depend.refobjid as ref
+        from pg_depend
+    ),
+    schema as (
+        select
+            pg_namespace.oid as id,
+            pg_namespace.nspname as name
+        from pg_namespace
+        where nspname != 'information_schema' and nspname not like 'pg\_%'
+    ),
+    referenced as (
+        select
+            relation.id AS id,
+            referenced_class.name ,
+            referenced_class.schema ,
+            referenced_class.kind
+        from relation
+        join class as referenced_class on relation.class=referenced_class.id
+        where referenced_class.kind in ('r', 'v', 'm')
+    ),
+    relationships as (
+        select
+            referenced.name as referenced_name,
+            referenced.schema as referenced_schema_id,
+            dependent_class.name as dependent_name,
+            dependent_class.schema as dependent_schema_id,
+            referenced.kind as kind
+        from referenced
+        join dependency on referenced.id=dependency.id
+        join class as dependent_class on dependency.ref=dependent_class.id
+        where
+            (referenced.name != dependent_class.name or
+             referenced.schema != dependent_class.schema)
+    )
+
+    select
+        referenced_schema.name as referenced_schema,
+        relationships.referenced_name as referenced_name,
+        dependent_schema.name as dependent_schema,
+        relationships.dependent_name as dependent_name
+    from relationships
+    join schema as dependent_schema on relationships.dependent_schema_id=dependent_schema.id
+    join schema as referenced_schema on relationships.referenced_schema_id=referenced_schema.id
+    group by referenced_schema, referenced_name, dependent_schema, dependent_name
+    order by referenced_schema, referenced_name, dependent_schema, dependent_name;
+[0m01:04:23.368283 [debug] [MainThread]: SQL status: SELECT 0 in 0.0 seconds
+[0m01:04:23.369378 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '51b319e9-8e29-4eb6-a197-28198857c55e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x124e17640>]}
+[0m01:04:23.369808 [debug] [MainThread]: On master: ROLLBACK
+[0m01:04:23.370452 [debug] [MainThread]: Using postgres connection "master"
+[0m01:04:23.370826 [debug] [MainThread]: On master: BEGIN
+[0m01:04:23.371606 [debug] [MainThread]: SQL status: BEGIN in 0.0 seconds
+[0m01:04:23.371984 [debug] [MainThread]: On master: COMMIT
+[0m01:04:23.372318 [debug] [MainThread]: Using postgres connection "master"
+[0m01:04:23.372591 [debug] [MainThread]: On master: COMMIT
+[0m01:04:23.373069 [debug] [MainThread]: SQL status: COMMIT in 0.0 seconds
+[0m01:04:23.373346 [debug] [MainThread]: On master: Close
+[0m01:04:23.373999 [info ] [MainThread]: Concurrency: 8 threads (target='dev')
+[0m01:04:23.374298 [info ] [MainThread]: 
+[0m01:04:23.376686 [debug] [Thread-1 (]: Began running node model.points_balance_report.improved_ledger__points_tranche_snapshots
+[0m01:04:23.377187 [info ] [Thread-1 (]: 1 of 1 START sql incremental model datamart.improved_ledger__points_tranche_snapshots  [RUN]
+[0m01:04:23.377783 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly list_datamart_datamart, now model.points_balance_report.improved_ledger__points_tranche_snapshots)
+[0m01:04:23.378118 [debug] [Thread-1 (]: Began compiling node model.points_balance_report.improved_ledger__points_tranche_snapshots
+[0m01:04:23.385281 [debug] [Thread-1 (]: Writing injected SQL for node "model.points_balance_report.improved_ledger__points_tranche_snapshots"
+[0m01:04:23.386793 [debug] [Thread-1 (]: Timing info for model.points_balance_report.improved_ledger__points_tranche_snapshots (compile): 01:04:23.378313 => 01:04:23.386561
+[0m01:04:23.387144 [debug] [Thread-1 (]: Began executing node model.points_balance_report.improved_ledger__points_tranche_snapshots
+[0m01:04:23.422847 [debug] [Thread-1 (]: Writing runtime sql for node "model.points_balance_report.improved_ledger__points_tranche_snapshots"
+[0m01:04:23.423863 [debug] [Thread-1 (]: Using postgres connection "model.points_balance_report.improved_ledger__points_tranche_snapshots"
+[0m01:04:23.424112 [debug] [Thread-1 (]: On model.points_balance_report.improved_ledger__points_tranche_snapshots: BEGIN
+[0m01:04:23.424342 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m01:04:23.444681 [debug] [Thread-1 (]: SQL status: BEGIN in 0.0 seconds
+[0m01:04:23.445021 [debug] [Thread-1 (]: Using postgres connection "model.points_balance_report.improved_ledger__points_tranche_snapshots"
+[0m01:04:23.445357 [debug] [Thread-1 (]: On model.points_balance_report.improved_ledger__points_tranche_snapshots: /* {"app": "dbt", "dbt_version": "1.7.7", "profile_name": "points_balance_profile", "target_name": "dev", "node_id": "model.points_balance_report.improved_ledger__points_tranche_snapshots"} */
+
+      
+  
+    
+
+  create  table "datamart"."datamart"."improved_ledger__points_tranche_snapshots"
+  
+  
+    as
+  
+  (
+     
+
+SELECT 
+  *
+FROM
+  "datamart"."raw_data"."ledger__points_tranche_snapshots_tenant_a"UNION ALL
+
+ 
+
+SELECT 
+  *
+FROM
+  "datamart"."raw_data"."ledger__points_tranche_snapshots_tenant_b"UNION ALL
+
+ 
+
+SELECT 
+  *
+FROM
+  "datamart"."raw_data"."ledger__points_tranche_snapshots_tenant_c"
+  );
+  
+  
+[0m01:04:23.464021 [debug] [Thread-1 (]: SQL status: SELECT 24 in 0.0 seconds
+[0m01:04:23.476542 [debug] [Thread-1 (]: On model.points_balance_report.improved_ledger__points_tranche_snapshots: COMMIT
+[0m01:04:23.476894 [debug] [Thread-1 (]: Using postgres connection "model.points_balance_report.improved_ledger__points_tranche_snapshots"
+[0m01:04:23.477158 [debug] [Thread-1 (]: On model.points_balance_report.improved_ledger__points_tranche_snapshots: COMMIT
+[0m01:04:23.539198 [debug] [Thread-1 (]: SQL status: COMMIT in 0.0 seconds
+[0m01:04:23.540126 [debug] [Thread-1 (]: Timing info for model.points_balance_report.improved_ledger__points_tranche_snapshots (execute): 01:04:23.387335 => 01:04:23.539943
+[0m01:04:23.540485 [debug] [Thread-1 (]: On model.points_balance_report.improved_ledger__points_tranche_snapshots: Close
+[0m01:04:23.541090 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '51b319e9-8e29-4eb6-a197-28198857c55e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x124e394e0>]}
+[0m01:04:23.541580 [info ] [Thread-1 (]: 1 of 1 OK created sql incremental model datamart.improved_ledger__points_tranche_snapshots  [[32mSELECT 24[0m in 0.16s]
+[0m01:04:23.542043 [debug] [Thread-1 (]: Finished running node model.points_balance_report.improved_ledger__points_tranche_snapshots
+[0m01:04:23.543162 [debug] [MainThread]: Using postgres connection "master"
+[0m01:04:23.543474 [debug] [MainThread]: On master: BEGIN
+[0m01:04:23.543742 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m01:04:23.773776 [debug] [MainThread]: SQL status: BEGIN in 0.0 seconds
+[0m01:04:23.775390 [debug] [MainThread]: On master: COMMIT
+[0m01:04:23.776062 [debug] [MainThread]: Using postgres connection "master"
+[0m01:04:23.776710 [debug] [MainThread]: On master: COMMIT
+[0m01:04:23.778367 [debug] [MainThread]: SQL status: COMMIT in 0.0 seconds
+[0m01:04:23.779389 [debug] [MainThread]: On master: Close
+[0m01:04:23.780914 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m01:04:23.781764 [debug] [MainThread]: Connection 'model.points_balance_report.improved_ledger__points_tranche_snapshots' was properly closed.
+[0m01:04:23.782510 [info ] [MainThread]: 
+[0m01:04:23.783218 [info ] [MainThread]: Finished running 1 incremental model in 0 hours 0 minutes and 1.13 seconds (1.13s).
+[0m01:04:23.784231 [debug] [MainThread]: Command end result
+[0m01:04:23.855432 [info ] [MainThread]: 
+[0m01:04:23.856333 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m01:04:23.856876 [info ] [MainThread]: 
+[0m01:04:23.857387 [info ] [MainThread]: Done. PASS=1 WARN=0 ERROR=0 SKIP=0 TOTAL=1
+[0m01:04:23.908034 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": true, "command_wall_clock_time": 2.8553326, "process_user_time": 2.10346, "process_kernel_time": 0.418678, "process_mem_max_rss": "127827968", "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m01:04:23.908990 [debug] [MainThread]: Command `dbt run` succeeded at 01:04:23.908826 after 2.86 seconds
+[0m01:04:23.909528 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107d2ded0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x122d0bcd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1226dc700>]}
+[0m01:04:23.910215 [debug] [MainThread]: Flushing usage events
+[0m01:08:10.055592 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107b2f340>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x112fdb910>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x112fd9420>]}
+
+
+============================== 01:08:10.061527 | 85a8a646-e740-4627-ab56-348fa619f91a ==============================
+[0m01:08:10.061527 [info ] [MainThread]: Running with dbt=1.7.7
+[0m01:08:10.062151 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/dimas.adiluhung/points_balance_report/profiles', 'version_check': 'True', 'fail_fast': 'False', 'log_path': '/Users/dimas.adiluhung/points_balance_report/logs', 'warn_error': 'None', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'introspect': 'True', 'log_format': 'default', 'target_path': 'None', 'invocation_command': 'dbt run --model improved_points_balance_report --profiles-dir /Users/dimas.adiluhung/points_balance_report/profiles', 'send_anonymous_usage_stats': 'True'}
+[0m01:08:10.432551 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '85a8a646-e740-4627-ab56-348fa619f91a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x112fd8e50>]}
+[0m01:08:10.489372 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '85a8a646-e740-4627-ab56-348fa619f91a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x112fd8f70>]}
+[0m01:08:10.603153 [info ] [MainThread]: Registered adapter: postgres=1.7.7
+[0m01:08:10.630673 [debug] [MainThread]: checksum: 54188551c516f4dd1c42b8d9c289f2bf49f18ae42632e2ba36a64ad29fd60da4, vars: {}, profile: , target: , version: 1.7.7
+[0m01:08:10.998764 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 1 files added, 0 files changed.
+[0m01:08:10.999978 [debug] [MainThread]: Partial parsing: added file: points_balance_report://models/improved_points_balance_report.sql
+[0m01:08:11.337380 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '85a8a646-e740-4627-ab56-348fa619f91a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x113fe5e40>]}
+[0m01:08:11.373349 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '85a8a646-e740-4627-ab56-348fa619f91a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x113f2dab0>]}
+[0m01:08:11.374159 [info ] [MainThread]: Found 4 models, 8 seeds, 6 sources, 0 exposures, 0 metrics, 401 macros, 0 groups, 0 semantic models
+[0m01:08:11.374707 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '85a8a646-e740-4627-ab56-348fa619f91a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x113f2fb50>]}
+[0m01:08:11.376443 [info ] [MainThread]: 
+[0m01:08:11.377412 [debug] [MainThread]: Acquiring new postgres connection 'master'
+[0m01:08:11.379020 [debug] [ThreadPool]: Acquiring new postgres connection 'list_datamart'
+[0m01:08:11.390629 [debug] [ThreadPool]: Using postgres connection "list_datamart"
+[0m01:08:11.391046 [debug] [ThreadPool]: On list_datamart: /* {"app": "dbt", "dbt_version": "1.7.7", "profile_name": "points_balance_profile", "target_name": "dev", "connection_name": "list_datamart"} */
+
+    select distinct nspname from pg_namespace
+  
+[0m01:08:11.391355 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m01:08:11.717996 [debug] [ThreadPool]: SQL status: SELECT 10 in 0.0 seconds
+[0m01:08:11.720162 [debug] [ThreadPool]: On list_datamart: Close
+[0m01:08:11.722605 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_datamart, now list_datamart_datamart)
+[0m01:08:11.729812 [debug] [ThreadPool]: Using postgres connection "list_datamart_datamart"
+[0m01:08:11.730346 [debug] [ThreadPool]: On list_datamart_datamart: BEGIN
+[0m01:08:11.730702 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m01:08:11.753972 [debug] [ThreadPool]: SQL status: BEGIN in 0.0 seconds
+[0m01:08:11.754548 [debug] [ThreadPool]: Using postgres connection "list_datamart_datamart"
+[0m01:08:11.754943 [debug] [ThreadPool]: On list_datamart_datamart: /* {"app": "dbt", "dbt_version": "1.7.7", "profile_name": "points_balance_profile", "target_name": "dev", "connection_name": "list_datamart_datamart"} */
+select
+      'datamart' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'datamart'
+    union all
+    select
+      'datamart' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'datamart'
+    union all
+    select
+      'datamart' as database,
+      matviewname as name,
+      schemaname as schema,
+      'materialized_view' as type
+    from pg_matviews
+    where schemaname ilike 'datamart'
+  
+[0m01:08:11.828961 [debug] [ThreadPool]: SQL status: SELECT 6 in 0.0 seconds
+[0m01:08:11.831418 [debug] [ThreadPool]: On list_datamart_datamart: ROLLBACK
+[0m01:08:11.832536 [debug] [ThreadPool]: On list_datamart_datamart: Close
+[0m01:08:11.839807 [debug] [MainThread]: Using postgres connection "master"
+[0m01:08:11.840245 [debug] [MainThread]: On master: BEGIN
+[0m01:08:11.840571 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m01:08:11.910545 [debug] [MainThread]: SQL status: BEGIN in 0.0 seconds
+[0m01:08:11.911322 [debug] [MainThread]: Using postgres connection "master"
+[0m01:08:11.911936 [debug] [MainThread]: On master: /* {"app": "dbt", "dbt_version": "1.7.7", "profile_name": "points_balance_profile", "target_name": "dev", "connection_name": "master"} */
+with relation as (
+        select
+            pg_rewrite.ev_class as class,
+            pg_rewrite.oid as id
+        from pg_rewrite
+    ),
+    class as (
+        select
+            oid as id,
+            relname as name,
+            relnamespace as schema,
+            relkind as kind
+        from pg_class
+    ),
+    dependency as (
+        select distinct
+            pg_depend.objid as id,
+            pg_depend.refobjid as ref
+        from pg_depend
+    ),
+    schema as (
+        select
+            pg_namespace.oid as id,
+            pg_namespace.nspname as name
+        from pg_namespace
+        where nspname != 'information_schema' and nspname not like 'pg\_%'
+    ),
+    referenced as (
+        select
+            relation.id AS id,
+            referenced_class.name ,
+            referenced_class.schema ,
+            referenced_class.kind
+        from relation
+        join class as referenced_class on relation.class=referenced_class.id
+        where referenced_class.kind in ('r', 'v', 'm')
+    ),
+    relationships as (
+        select
+            referenced.name as referenced_name,
+            referenced.schema as referenced_schema_id,
+            dependent_class.name as dependent_name,
+            dependent_class.schema as dependent_schema_id,
+            referenced.kind as kind
+        from referenced
+        join dependency on referenced.id=dependency.id
+        join class as dependent_class on dependency.ref=dependent_class.id
+        where
+            (referenced.name != dependent_class.name or
+             referenced.schema != dependent_class.schema)
+    )
+
+    select
+        referenced_schema.name as referenced_schema,
+        relationships.referenced_name as referenced_name,
+        dependent_schema.name as dependent_schema,
+        relationships.dependent_name as dependent_name
+    from relationships
+    join schema as dependent_schema on relationships.dependent_schema_id=dependent_schema.id
+    join schema as referenced_schema on relationships.referenced_schema_id=referenced_schema.id
+    group by referenced_schema, referenced_name, dependent_schema, dependent_name
+    order by referenced_schema, referenced_name, dependent_schema, dependent_name;
+[0m01:08:11.968184 [debug] [MainThread]: SQL status: SELECT 0 in 0.0 seconds
+[0m01:08:11.969215 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '85a8a646-e740-4627-ab56-348fa619f91a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x113fb7640>]}
+[0m01:08:11.969657 [debug] [MainThread]: On master: ROLLBACK
+[0m01:08:11.970259 [debug] [MainThread]: Using postgres connection "master"
+[0m01:08:11.970563 [debug] [MainThread]: On master: BEGIN
+[0m01:08:11.971117 [debug] [MainThread]: SQL status: BEGIN in 0.0 seconds
+[0m01:08:11.971481 [debug] [MainThread]: On master: COMMIT
+[0m01:08:11.971762 [debug] [MainThread]: Using postgres connection "master"
+[0m01:08:11.972022 [debug] [MainThread]: On master: COMMIT
+[0m01:08:11.972552 [debug] [MainThread]: SQL status: COMMIT in 0.0 seconds
+[0m01:08:11.972940 [debug] [MainThread]: On master: Close
+[0m01:08:11.973527 [info ] [MainThread]: Concurrency: 8 threads (target='dev')
+[0m01:08:11.973841 [info ] [MainThread]: 
+[0m01:08:11.976210 [debug] [Thread-1 (]: Began running node model.points_balance_report.improved_points_balance_report
+[0m01:08:11.976637 [info ] [Thread-1 (]: 1 of 1 START sql incremental model datamart.improved_points_balance_report ..... [RUN]
+[0m01:08:11.977279 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly list_datamart_datamart, now model.points_balance_report.improved_points_balance_report)
+[0m01:08:11.977645 [debug] [Thread-1 (]: Began compiling node model.points_balance_report.improved_points_balance_report
+[0m01:08:11.983957 [debug] [Thread-1 (]: Writing injected SQL for node "model.points_balance_report.improved_points_balance_report"
+[0m01:08:11.984883 [debug] [Thread-1 (]: Timing info for model.points_balance_report.improved_points_balance_report (compile): 01:08:11.977835 => 01:08:11.984615
+[0m01:08:11.985245 [debug] [Thread-1 (]: Began executing node model.points_balance_report.improved_points_balance_report
+[0m01:08:12.020613 [debug] [Thread-1 (]: Writing runtime sql for node "model.points_balance_report.improved_points_balance_report"
+[0m01:08:12.022070 [debug] [Thread-1 (]: Using postgres connection "model.points_balance_report.improved_points_balance_report"
+[0m01:08:12.022333 [debug] [Thread-1 (]: On model.points_balance_report.improved_points_balance_report: BEGIN
+[0m01:08:12.022567 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m01:08:12.232560 [debug] [Thread-1 (]: SQL status: BEGIN in 0.0 seconds
+[0m01:08:12.233437 [debug] [Thread-1 (]: Using postgres connection "model.points_balance_report.improved_points_balance_report"
+[0m01:08:12.234116 [debug] [Thread-1 (]: On model.points_balance_report.improved_points_balance_report: /* {"app": "dbt", "dbt_version": "1.7.7", "profile_name": "points_balance_profile", "target_name": "dev", "node_id": "model.points_balance_report.improved_points_balance_report"} */
+
+      
+  
+    
+
+  create  table "datamart"."datamart"."improved_points_balance_report"
+  
+  
+    as
+  
+  (
+    
+
+SELECT 
+  None AS tenant_date,
+  customer.external_id AS customer_id,
+  COALESCE(SUM(balance.points_balance), 0) AS available_points_balance
+FROM
+  "datamart"."datamart"."improved_crm__customers" AS customer
+LEFT JOIN
+  "datamart"."datamart"."improved_ledger__points_tranche_snapshots" AS balance
+ON
+  customer.id = balance.user_id
+  AND balance.scd_valid_from at time zone 'aedt' <= None
+  AND (balance.scd_valid_to at time zone 'aedt' >= None OR balance.scd_valid_to IS NULL)
+  AND balance.expired_on > None
+GROUP BY
+  1,2
+  );
+  
+  
+[0m01:08:12.242847 [debug] [Thread-1 (]: Postgres adapter: Postgres error: column "none" does not exist
+LINE 25:   AND balance.scd_valid_from at time zone 'aedt' <= None
+                                                             ^
+
+[0m01:08:12.243735 [debug] [Thread-1 (]: On model.points_balance_report.improved_points_balance_report: ROLLBACK
+[0m01:08:12.245304 [debug] [Thread-1 (]: Timing info for model.points_balance_report.improved_points_balance_report (execute): 01:08:11.985432 => 01:08:12.244807
+[0m01:08:12.246091 [debug] [Thread-1 (]: On model.points_balance_report.improved_points_balance_report: Close
+[0m01:08:12.324399 [debug] [Thread-1 (]: Database Error in model improved_points_balance_report (models/improved_points_balance_report.sql)
+  column "none" does not exist
+  LINE 25:   AND balance.scd_valid_from at time zone 'aedt' <= None
+                                                               ^
+  compiled Code at target/run/points_balance_report/models/improved_points_balance_report.sql
+[0m01:08:12.326228 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '85a8a646-e740-4627-ab56-348fa619f91a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x113a50cd0>]}
+[0m01:08:12.327859 [error] [Thread-1 (]: 1 of 1 ERROR creating sql incremental model datamart.improved_points_balance_report  [[31mERROR[0m in 0.35s]
+[0m01:08:12.329548 [debug] [Thread-1 (]: Finished running node model.points_balance_report.improved_points_balance_report
+[0m01:08:12.332659 [debug] [MainThread]: Using postgres connection "master"
+[0m01:08:12.333504 [debug] [MainThread]: On master: BEGIN
+[0m01:08:12.334085 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m01:08:12.459442 [debug] [MainThread]: SQL status: BEGIN in 0.0 seconds
+[0m01:08:12.461095 [debug] [MainThread]: On master: COMMIT
+[0m01:08:12.462116 [debug] [MainThread]: Using postgres connection "master"
+[0m01:08:12.462788 [debug] [MainThread]: On master: COMMIT
+[0m01:08:12.464087 [debug] [MainThread]: SQL status: COMMIT in 0.0 seconds
+[0m01:08:12.464854 [debug] [MainThread]: On master: Close
+[0m01:08:12.466196 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m01:08:12.466816 [debug] [MainThread]: Connection 'model.points_balance_report.improved_points_balance_report' was properly closed.
+[0m01:08:12.467497 [info ] [MainThread]: 
+[0m01:08:12.468202 [info ] [MainThread]: Finished running 1 incremental model in 0 hours 0 minutes and 1.09 seconds (1.09s).
+[0m01:08:12.469754 [debug] [MainThread]: Command end result
+[0m01:08:12.499051 [info ] [MainThread]: 
+[0m01:08:12.499629 [info ] [MainThread]: [31mCompleted with 1 error and 0 warnings:[0m
+[0m01:08:12.500290 [info ] [MainThread]: 
+[0m01:08:12.500718 [error] [MainThread]:   Database Error in model improved_points_balance_report (models/improved_points_balance_report.sql)
+  column "none" does not exist
+  LINE 25:   AND balance.scd_valid_from at time zone 'aedt' <= None
+                                                               ^
+  compiled Code at target/run/points_balance_report/models/improved_points_balance_report.sql
+[0m01:08:12.501120 [info ] [MainThread]: 
+[0m01:08:12.501513 [info ] [MainThread]: Done. PASS=0 WARN=0 ERROR=1 SKIP=0 TOTAL=1
+[0m01:08:12.507148 [debug] [MainThread]: Resource report: {"command_name": "run", "command_wall_clock_time": 2.7401915, "process_user_time": 2.088936, "process_kernel_time": 0.443248, "process_mem_max_rss": "126648320", "command_success": false, "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m01:08:12.507771 [debug] [MainThread]: Command `dbt run` failed at 01:08:12.507628 after 2.74 seconds
+[0m01:08:12.508215 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107b2f340>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1120d7f70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x113a51ae0>]}
+[0m01:08:12.508656 [debug] [MainThread]: Flushing usage events
+[0m01:11:14.216362 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x102d6e770>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104c851b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104c86110>]}
+
+
+============================== 01:11:14.296600 | 29c1f7f9-dcf3-4bf1-b0bd-e68f85cf78a8 ==============================
+[0m01:11:14.296600 [info ] [MainThread]: Running with dbt=1.7.7
+[0m01:11:14.297645 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'profiles_dir': '/Users/dimas.adiluhung/points_balance_report/profiles', 'log_path': '/Users/dimas.adiluhung/points_balance_report/logs', 'fail_fast': 'False', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'log_format': 'default', 'static_parser': 'True', 'target_path': 'None', 'invocation_command': "dbt run --model improved_points_balance_report --profiles-dir /Users/dimas.adiluhung/points_balance_report/profiles --vars tenant_date: DATE('2023-1-1')", 'send_anonymous_usage_stats': 'True'}
+[0m01:11:15.680415 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '29c1f7f9-dcf3-4bf1-b0bd-e68f85cf78a8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104c86560>]}
+[0m01:11:15.732354 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '29c1f7f9-dcf3-4bf1-b0bd-e68f85cf78a8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104c85ea0>]}
+[0m01:11:15.733237 [info ] [MainThread]: Registered adapter: postgres=1.7.7
+[0m01:11:15.743814 [debug] [MainThread]: checksum: 1f2ba70fb1956b905445d730acbc1dbdf75a229a2b126860b0772a885a9cca44, vars: {'tenant_date': "DATE('2023-1-1')"}, profile: , target: , version: 1.7.7
+[0m01:11:15.784423 [info ] [MainThread]: Unable to do partial parsing because config vars, config profile, or config target have changed
+[0m01:11:15.784813 [debug] [MainThread]: previous checksum: 1f2ba70fb1956b905445d730acbc1dbdf75a229a2b126860b0772a885a9cca44, current checksum: 54188551c516f4dd1c42b8d9c289f2bf49f18ae42632e2ba36a64ad29fd60da4
+[0m01:11:15.785053 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '29c1f7f9-dcf3-4bf1-b0bd-e68f85cf78a8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10568e500>]}
+[0m01:11:16.425261 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '29c1f7f9-dcf3-4bf1-b0bd-e68f85cf78a8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105ec40d0>]}
+[0m01:11:16.433970 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '29c1f7f9-dcf3-4bf1-b0bd-e68f85cf78a8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105b67be0>]}
+[0m01:11:16.434269 [info ] [MainThread]: Found 4 models, 8 seeds, 6 sources, 0 exposures, 0 metrics, 401 macros, 0 groups, 0 semantic models
+[0m01:11:16.434510 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '29c1f7f9-dcf3-4bf1-b0bd-e68f85cf78a8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105656530>]}
+[0m01:11:16.435247 [info ] [MainThread]: 
+[0m01:11:16.435693 [debug] [MainThread]: Acquiring new postgres connection 'master'
+[0m01:11:16.436306 [debug] [ThreadPool]: Acquiring new postgres connection 'list_datamart'
+[0m01:11:16.442314 [debug] [ThreadPool]: Using postgres connection "list_datamart"
+[0m01:11:16.442562 [debug] [ThreadPool]: On list_datamart: /* {"app": "dbt", "dbt_version": "1.7.7", "profile_name": "points_balance_profile", "target_name": "dev", "connection_name": "list_datamart"} */
+
+    select distinct nspname from pg_namespace
+  
+[0m01:11:16.442764 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m01:11:16.609080 [debug] [ThreadPool]: SQL status: SELECT 10 in 0.0 seconds
+[0m01:11:16.611234 [debug] [ThreadPool]: On list_datamart: Close
+[0m01:11:16.613558 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_datamart, now list_datamart_datamart)
+[0m01:11:16.620066 [debug] [ThreadPool]: Using postgres connection "list_datamart_datamart"
+[0m01:11:16.620452 [debug] [ThreadPool]: On list_datamart_datamart: BEGIN
+[0m01:11:16.620770 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m01:11:16.636458 [debug] [ThreadPool]: SQL status: BEGIN in 0.0 seconds
+[0m01:11:16.636826 [debug] [ThreadPool]: Using postgres connection "list_datamart_datamart"
+[0m01:11:16.637181 [debug] [ThreadPool]: On list_datamart_datamart: /* {"app": "dbt", "dbt_version": "1.7.7", "profile_name": "points_balance_profile", "target_name": "dev", "connection_name": "list_datamart_datamart"} */
+select
+      'datamart' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'datamart'
+    union all
+    select
+      'datamart' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'datamart'
+    union all
+    select
+      'datamart' as database,
+      matviewname as name,
+      schemaname as schema,
+      'materialized_view' as type
+    from pg_matviews
+    where schemaname ilike 'datamart'
+  
+[0m01:11:16.652359 [debug] [ThreadPool]: SQL status: SELECT 6 in 0.0 seconds
+[0m01:11:16.653837 [debug] [ThreadPool]: On list_datamart_datamart: ROLLBACK
+[0m01:11:16.654528 [debug] [ThreadPool]: On list_datamart_datamart: Close
+[0m01:11:16.659755 [debug] [MainThread]: Using postgres connection "master"
+[0m01:11:16.660171 [debug] [MainThread]: On master: BEGIN
+[0m01:11:16.660468 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m01:11:16.686921 [debug] [MainThread]: SQL status: BEGIN in 0.0 seconds
+[0m01:11:16.687334 [debug] [MainThread]: Using postgres connection "master"
+[0m01:11:16.687725 [debug] [MainThread]: On master: /* {"app": "dbt", "dbt_version": "1.7.7", "profile_name": "points_balance_profile", "target_name": "dev", "connection_name": "master"} */
+with relation as (
+        select
+            pg_rewrite.ev_class as class,
+            pg_rewrite.oid as id
+        from pg_rewrite
+    ),
+    class as (
+        select
+            oid as id,
+            relname as name,
+            relnamespace as schema,
+            relkind as kind
+        from pg_class
+    ),
+    dependency as (
+        select distinct
+            pg_depend.objid as id,
+            pg_depend.refobjid as ref
+        from pg_depend
+    ),
+    schema as (
+        select
+            pg_namespace.oid as id,
+            pg_namespace.nspname as name
+        from pg_namespace
+        where nspname != 'information_schema' and nspname not like 'pg\_%'
+    ),
+    referenced as (
+        select
+            relation.id AS id,
+            referenced_class.name ,
+            referenced_class.schema ,
+            referenced_class.kind
+        from relation
+        join class as referenced_class on relation.class=referenced_class.id
+        where referenced_class.kind in ('r', 'v', 'm')
+    ),
+    relationships as (
+        select
+            referenced.name as referenced_name,
+            referenced.schema as referenced_schema_id,
+            dependent_class.name as dependent_name,
+            dependent_class.schema as dependent_schema_id,
+            referenced.kind as kind
+        from referenced
+        join dependency on referenced.id=dependency.id
+        join class as dependent_class on dependency.ref=dependent_class.id
+        where
+            (referenced.name != dependent_class.name or
+             referenced.schema != dependent_class.schema)
+    )
+
+    select
+        referenced_schema.name as referenced_schema,
+        relationships.referenced_name as referenced_name,
+        dependent_schema.name as dependent_schema,
+        relationships.dependent_name as dependent_name
+    from relationships
+    join schema as dependent_schema on relationships.dependent_schema_id=dependent_schema.id
+    join schema as referenced_schema on relationships.referenced_schema_id=referenced_schema.id
+    group by referenced_schema, referenced_name, dependent_schema, dependent_name
+    order by referenced_schema, referenced_name, dependent_schema, dependent_name;
+[0m01:11:16.722515 [debug] [MainThread]: SQL status: SELECT 0 in 0.0 seconds
+[0m01:11:16.723677 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '29c1f7f9-dcf3-4bf1-b0bd-e68f85cf78a8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105f17af0>]}
+[0m01:11:16.724162 [debug] [MainThread]: On master: ROLLBACK
+[0m01:11:16.724767 [debug] [MainThread]: Using postgres connection "master"
+[0m01:11:16.725093 [debug] [MainThread]: On master: BEGIN
+[0m01:11:16.725733 [debug] [MainThread]: SQL status: BEGIN in 0.0 seconds
+[0m01:11:16.726098 [debug] [MainThread]: On master: COMMIT
+[0m01:11:16.726445 [debug] [MainThread]: Using postgres connection "master"
+[0m01:11:16.726783 [debug] [MainThread]: On master: COMMIT
+[0m01:11:16.727352 [debug] [MainThread]: SQL status: COMMIT in 0.0 seconds
+[0m01:11:16.727680 [debug] [MainThread]: On master: Close
+[0m01:11:16.728344 [info ] [MainThread]: Concurrency: 8 threads (target='dev')
+[0m01:11:16.728754 [info ] [MainThread]: 
+[0m01:11:16.731344 [debug] [Thread-1 (]: Began running node model.points_balance_report.improved_points_balance_report
+[0m01:11:16.731915 [info ] [Thread-1 (]: 1 of 1 START sql incremental model datamart.improved_points_balance_report ..... [RUN]
+[0m01:11:16.732598 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly list_datamart_datamart, now model.points_balance_report.improved_points_balance_report)
+[0m01:11:16.732978 [debug] [Thread-1 (]: Began compiling node model.points_balance_report.improved_points_balance_report
+[0m01:11:16.740847 [debug] [Thread-1 (]: Writing injected SQL for node "model.points_balance_report.improved_points_balance_report"
+[0m01:11:16.742095 [debug] [Thread-1 (]: Timing info for model.points_balance_report.improved_points_balance_report (compile): 01:11:16.733211 => 01:11:16.741871
+[0m01:11:16.742491 [debug] [Thread-1 (]: Began executing node model.points_balance_report.improved_points_balance_report
+[0m01:11:16.779876 [debug] [Thread-1 (]: Writing runtime sql for node "model.points_balance_report.improved_points_balance_report"
+[0m01:11:16.780875 [debug] [Thread-1 (]: Using postgres connection "model.points_balance_report.improved_points_balance_report"
+[0m01:11:16.781140 [debug] [Thread-1 (]: On model.points_balance_report.improved_points_balance_report: BEGIN
+[0m01:11:16.781379 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m01:11:16.794826 [debug] [Thread-1 (]: SQL status: BEGIN in 0.0 seconds
+[0m01:11:16.795152 [debug] [Thread-1 (]: Using postgres connection "model.points_balance_report.improved_points_balance_report"
+[0m01:11:16.795441 [debug] [Thread-1 (]: On model.points_balance_report.improved_points_balance_report: /* {"app": "dbt", "dbt_version": "1.7.7", "profile_name": "points_balance_profile", "target_name": "dev", "node_id": "model.points_balance_report.improved_points_balance_report"} */
+
+      
+  
+    
+
+  create  table "datamart"."datamart"."improved_points_balance_report"
+  
+  
+    as
+  
+  (
+    
+
+SELECT 
+  DATE('2023-1-1') AS tenant_date,
+  customer.external_id AS customer_id,
+  COALESCE(SUM(balance.points_balance), 0) AS available_points_balance
+FROM
+  "datamart"."datamart"."improved_crm__customers" AS customer
+LEFT JOIN
+  "datamart"."datamart"."improved_ledger__points_tranche_snapshots" AS balance
+ON
+  customer.id = balance.user_id
+  AND balance.scd_valid_from at time zone 'aedt' <= DATE('2023-1-1')
+  AND (balance.scd_valid_to at time zone 'aedt' >= DATE('2023-1-1') OR balance.scd_valid_to IS NULL)
+  AND balance.expired_on > DATE('2023-1-1')
+GROUP BY
+  1,2
+  );
+  
+  
+[0m01:11:16.810875 [debug] [Thread-1 (]: SQL status: SELECT 12 in 0.0 seconds
+[0m01:11:16.823637 [debug] [Thread-1 (]: On model.points_balance_report.improved_points_balance_report: COMMIT
+[0m01:11:16.823948 [debug] [Thread-1 (]: Using postgres connection "model.points_balance_report.improved_points_balance_report"
+[0m01:11:16.824205 [debug] [Thread-1 (]: On model.points_balance_report.improved_points_balance_report: COMMIT
+[0m01:11:16.825194 [debug] [Thread-1 (]: SQL status: COMMIT in 0.0 seconds
+[0m01:11:16.825784 [debug] [Thread-1 (]: Timing info for model.points_balance_report.improved_points_balance_report (execute): 01:11:16.742706 => 01:11:16.825639
+[0m01:11:16.826049 [debug] [Thread-1 (]: On model.points_balance_report.improved_points_balance_report: Close
+[0m01:11:16.826534 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '29c1f7f9-dcf3-4bf1-b0bd-e68f85cf78a8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105ec6cb0>]}
+[0m01:11:16.826938 [info ] [Thread-1 (]: 1 of 1 OK created sql incremental model datamart.improved_points_balance_report  [[32mSELECT 12[0m in 0.09s]
+[0m01:11:16.827336 [debug] [Thread-1 (]: Finished running node model.points_balance_report.improved_points_balance_report
+[0m01:11:16.828232 [debug] [MainThread]: Using postgres connection "master"
+[0m01:11:16.828501 [debug] [MainThread]: On master: BEGIN
+[0m01:11:16.828725 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m01:11:16.836477 [debug] [MainThread]: SQL status: BEGIN in 0.0 seconds
+[0m01:11:16.836788 [debug] [MainThread]: On master: COMMIT
+[0m01:11:16.837018 [debug] [MainThread]: Using postgres connection "master"
+[0m01:11:16.837228 [debug] [MainThread]: On master: COMMIT
+[0m01:11:16.837662 [debug] [MainThread]: SQL status: COMMIT in 0.0 seconds
+[0m01:11:16.837961 [debug] [MainThread]: On master: Close
+[0m01:11:16.838460 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m01:11:16.838695 [debug] [MainThread]: Connection 'model.points_balance_report.improved_points_balance_report' was properly closed.
+[0m01:11:16.838944 [info ] [MainThread]: 
+[0m01:11:16.839195 [info ] [MainThread]: Finished running 1 incremental model in 0 hours 0 minutes and 0.40 seconds (0.40s).
+[0m01:11:16.839629 [debug] [MainThread]: Command end result
+[0m01:11:16.861105 [info ] [MainThread]: 
+[0m01:11:16.861470 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m01:11:16.861700 [info ] [MainThread]: 
+[0m01:11:16.861934 [info ] [MainThread]: Done. PASS=1 WARN=0 ERROR=0 SKIP=0 TOTAL=1
+[0m01:11:16.863707 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": true, "command_wall_clock_time": 2.8054388, "process_user_time": 2.196592, "process_kernel_time": 0.25784, "process_mem_max_rss": "128794624", "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m01:11:16.864097 [debug] [MainThread]: Command `dbt run` succeeded at 01:11:16.864015 after 2.81 seconds
+[0m01:11:16.864361 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x102d6e770>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105782620>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105f7bfa0>]}
+[0m01:11:16.864617 [debug] [MainThread]: Flushing usage events
+
+
+============================== 02:09:27.266502 | f1931d57-0df5-46e6-b0e4-6ba29f7b1e14 ==============================
+[0m02:09:27.266502 [info ] [MainThread]: Running with dbt=1.7.7
+[0m02:09:27.270487 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'False', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'fail_fast': 'False', 'log_path': '/Users/dimas.adiluhung/points_balance_report/logs', 'profiles_dir': '/Users/dimas.adiluhung/.dbt', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt run --model improved_crm__customers', 'introspect': 'True', 'static_parser': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'False'}
+[0m02:09:27.275135 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Could not find profile named 'points_balance_profile'
+[0m02:09:27.277347 [debug] [MainThread]: Resource report: {"command_name": "run", "command_wall_clock_time": 0.15701708, "process_user_time": 1.519202, "process_kernel_time": 0.303604, "process_mem_max_rss": "105627648", "command_success": false, "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m02:09:27.277926 [debug] [MainThread]: Command `dbt run` failed at 02:09:27.277809 after 0.16 seconds
+[0m02:09:27.278257 [debug] [MainThread]: Flushing usage events
+[0m02:11:34.328192 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107dc95a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1122dacb0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1122d9840>]}
+
+
+============================== 02:11:34.332314 | 69bbe68c-ac6d-4e21-b277-a71e9adecafc ==============================
+[0m02:11:34.332314 [info ] [MainThread]: Running with dbt=1.7.7
+[0m02:11:34.332884 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'fail_fast': 'False', 'log_path': '/Users/dimas.adiluhung/points_balance_report/logs', 'profiles_dir': '/Users/dimas.adiluhung/points_balance_report/profiles', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'invocation_command': 'dbt run --model improved_crm__customers --profiles-dir /Users/dimas.adiluhung/points_balance_report/profiles', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m02:11:34.864958 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '69bbe68c-ac6d-4e21-b277-a71e9adecafc', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1123e3ac0>]}
+[0m02:11:34.921400 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '69bbe68c-ac6d-4e21-b277-a71e9adecafc', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1123e1f60>]}
+[0m02:11:34.940378 [info ] [MainThread]: Registered adapter: postgres=1.7.7
+[0m02:11:35.050633 [debug] [MainThread]: checksum: 54188551c516f4dd1c42b8d9c289f2bf49f18ae42632e2ba36a64ad29fd60da4, vars: {}, profile: , target: , version: 1.7.7
+[0m02:11:35.089655 [info ] [MainThread]: Unable to do partial parsing because config vars, config profile, or config target have changed
+[0m02:11:35.090017 [debug] [MainThread]: previous checksum: 54188551c516f4dd1c42b8d9c289f2bf49f18ae42632e2ba36a64ad29fd60da4, current checksum: 1f2ba70fb1956b905445d730acbc1dbdf75a229a2b126860b0772a885a9cca44
+[0m02:11:35.090225 [info ] [MainThread]: Unable to do partial parsing because a project config has changed
+[0m02:11:35.090455 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '69bbe68c-ac6d-4e21-b277-a71e9adecafc', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x112cc34f0>]}
+[0m02:11:36.198375 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '69bbe68c-ac6d-4e21-b277-a71e9adecafc', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x113cc80d0>]}
+[0m02:11:36.211364 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '69bbe68c-ac6d-4e21-b277-a71e9adecafc', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x112f04430>]}
+[0m02:11:36.211770 [info ] [MainThread]: Found 4 models, 8 seeds, 6 sources, 0 exposures, 0 metrics, 401 macros, 0 groups, 0 semantic models
+[0m02:11:36.212084 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '69bbe68c-ac6d-4e21-b277-a71e9adecafc', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1126f80d0>]}
+[0m02:11:36.213170 [info ] [MainThread]: 
+[0m02:11:36.213821 [debug] [MainThread]: Acquiring new postgres connection 'master'
+[0m02:11:36.214635 [debug] [ThreadPool]: Acquiring new postgres connection 'list_datamart'
+[0m02:11:36.222228 [debug] [ThreadPool]: Using postgres connection "list_datamart"
+[0m02:11:36.222561 [debug] [ThreadPool]: On list_datamart: /* {"app": "dbt", "dbt_version": "1.7.7", "profile_name": "points_balance_profile", "target_name": "dev", "connection_name": "list_datamart"} */
+
+    select distinct nspname from pg_namespace
+  
+[0m02:11:36.222810 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m02:11:36.722067 [debug] [ThreadPool]: SQL status: SELECT 10 in 0.0 seconds
+[0m02:11:36.727085 [debug] [ThreadPool]: On list_datamart: Close
+[0m02:11:36.731611 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_datamart, now list_datamart_datamart)
+[0m02:11:36.741517 [debug] [ThreadPool]: Using postgres connection "list_datamart_datamart"
+[0m02:11:36.742163 [debug] [ThreadPool]: On list_datamart_datamart: BEGIN
+[0m02:11:36.742858 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m02:11:36.764464 [debug] [ThreadPool]: SQL status: BEGIN in 0.0 seconds
+[0m02:11:36.765036 [debug] [ThreadPool]: Using postgres connection "list_datamart_datamart"
+[0m02:11:36.765516 [debug] [ThreadPool]: On list_datamart_datamart: /* {"app": "dbt", "dbt_version": "1.7.7", "profile_name": "points_balance_profile", "target_name": "dev", "connection_name": "list_datamart_datamart"} */
+select
+      'datamart' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'datamart'
+    union all
+    select
+      'datamart' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'datamart'
+    union all
+    select
+      'datamart' as database,
+      matviewname as name,
+      schemaname as schema,
+      'materialized_view' as type
+    from pg_matviews
+    where schemaname ilike 'datamart'
+  
+[0m02:11:36.789160 [debug] [ThreadPool]: SQL status: SELECT 7 in 0.0 seconds
+[0m02:11:36.791837 [debug] [ThreadPool]: On list_datamart_datamart: ROLLBACK
+[0m02:11:36.793095 [debug] [ThreadPool]: On list_datamart_datamart: Close
+[0m02:11:36.802296 [debug] [MainThread]: Using postgres connection "master"
+[0m02:11:36.802895 [debug] [MainThread]: On master: BEGIN
+[0m02:11:36.803317 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m02:11:36.826493 [debug] [MainThread]: SQL status: BEGIN in 0.0 seconds
+[0m02:11:36.827129 [debug] [MainThread]: Using postgres connection "master"
+[0m02:11:36.827752 [debug] [MainThread]: On master: /* {"app": "dbt", "dbt_version": "1.7.7", "profile_name": "points_balance_profile", "target_name": "dev", "connection_name": "master"} */
+with relation as (
+        select
+            pg_rewrite.ev_class as class,
+            pg_rewrite.oid as id
+        from pg_rewrite
+    ),
+    class as (
+        select
+            oid as id,
+            relname as name,
+            relnamespace as schema,
+            relkind as kind
+        from pg_class
+    ),
+    dependency as (
+        select distinct
+            pg_depend.objid as id,
+            pg_depend.refobjid as ref
+        from pg_depend
+    ),
+    schema as (
+        select
+            pg_namespace.oid as id,
+            pg_namespace.nspname as name
+        from pg_namespace
+        where nspname != 'information_schema' and nspname not like 'pg\_%'
+    ),
+    referenced as (
+        select
+            relation.id AS id,
+            referenced_class.name ,
+            referenced_class.schema ,
+            referenced_class.kind
+        from relation
+        join class as referenced_class on relation.class=referenced_class.id
+        where referenced_class.kind in ('r', 'v', 'm')
+    ),
+    relationships as (
+        select
+            referenced.name as referenced_name,
+            referenced.schema as referenced_schema_id,
+            dependent_class.name as dependent_name,
+            dependent_class.schema as dependent_schema_id,
+            referenced.kind as kind
+        from referenced
+        join dependency on referenced.id=dependency.id
+        join class as dependent_class on dependency.ref=dependent_class.id
+        where
+            (referenced.name != dependent_class.name or
+             referenced.schema != dependent_class.schema)
+    )
+
+    select
+        referenced_schema.name as referenced_schema,
+        relationships.referenced_name as referenced_name,
+        dependent_schema.name as dependent_schema,
+        relationships.dependent_name as dependent_name
+    from relationships
+    join schema as dependent_schema on relationships.dependent_schema_id=dependent_schema.id
+    join schema as referenced_schema on relationships.referenced_schema_id=referenced_schema.id
+    group by referenced_schema, referenced_name, dependent_schema, dependent_name
+    order by referenced_schema, referenced_name, dependent_schema, dependent_name;
+[0m02:11:36.875797 [debug] [MainThread]: SQL status: SELECT 0 in 0.0 seconds
+[0m02:11:36.878867 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '69bbe68c-ac6d-4e21-b277-a71e9adecafc', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x113d17bb0>]}
+[0m02:11:36.880141 [debug] [MainThread]: On master: ROLLBACK
+[0m02:11:36.881389 [debug] [MainThread]: Using postgres connection "master"
+[0m02:11:36.882002 [debug] [MainThread]: On master: BEGIN
+[0m02:11:36.883346 [debug] [MainThread]: SQL status: BEGIN in 0.0 seconds
+[0m02:11:36.883853 [debug] [MainThread]: On master: COMMIT
+[0m02:11:36.884252 [debug] [MainThread]: Using postgres connection "master"
+[0m02:11:36.884613 [debug] [MainThread]: On master: COMMIT
+[0m02:11:36.885363 [debug] [MainThread]: SQL status: COMMIT in 0.0 seconds
+[0m02:11:36.885786 [debug] [MainThread]: On master: Close
+[0m02:11:36.886709 [info ] [MainThread]: Concurrency: 8 threads (target='dev')
+[0m02:11:36.887170 [info ] [MainThread]: 
+[0m02:11:36.891065 [debug] [Thread-1 (]: Began running node model.points_balance_report.improved_crm__customers
+[0m02:11:36.891750 [info ] [Thread-1 (]: 1 of 1 START sql incremental model datamart.improved_crm__customers ............ [RUN]
+[0m02:11:36.892780 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly list_datamart_datamart, now model.points_balance_report.improved_crm__customers)
+[0m02:11:36.893457 [debug] [Thread-1 (]: Began compiling node model.points_balance_report.improved_crm__customers
+[0m02:11:36.904535 [debug] [Thread-1 (]: Writing injected SQL for node "model.points_balance_report.improved_crm__customers"
+[0m02:11:36.907826 [debug] [Thread-1 (]: Timing info for model.points_balance_report.improved_crm__customers (compile): 02:11:36.893786 => 02:11:36.907409
+[0m02:11:36.908406 [debug] [Thread-1 (]: Began executing node model.points_balance_report.improved_crm__customers
+[0m02:11:36.951469 [debug] [Thread-1 (]: Using postgres connection "model.points_balance_report.improved_crm__customers"
+[0m02:11:36.951882 [debug] [Thread-1 (]: On model.points_balance_report.improved_crm__customers: /* {"app": "dbt", "dbt_version": "1.7.7", "profile_name": "points_balance_profile", "target_name": "dev", "node_id": "model.points_balance_report.improved_crm__customers"} */
+
+    
+  
+    
+
+  create temporary table "improved_crm__customers__dbt_tmp021136932840"
+  
+  
+    as
+  
+  (
+     
+
+SELECT 
+  *
+FROM
+  "datamart"."raw_data"."crm__customers_tenant_a"UNION ALL
+
+ 
+
+SELECT 
+  *
+FROM
+  "datamart"."raw_data"."crm__customers_tenant_b"UNION ALL
+
+ 
+
+SELECT 
+  *
+FROM
+  "datamart"."raw_data"."crm__customers_tenant_c"
+  );
+  
+  
+[0m02:11:36.952158 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m02:11:36.995199 [debug] [Thread-1 (]: SQL status: SELECT 24 in 0.0 seconds
+[0m02:11:37.001219 [debug] [Thread-1 (]: Using postgres connection "model.points_balance_report.improved_crm__customers"
+[0m02:11:37.001582 [debug] [Thread-1 (]: On model.points_balance_report.improved_crm__customers: BEGIN
+[0m02:11:37.002071 [debug] [Thread-1 (]: SQL status: BEGIN in 0.0 seconds
+[0m02:11:37.002341 [debug] [Thread-1 (]: Using postgres connection "model.points_balance_report.improved_crm__customers"
+[0m02:11:37.002615 [debug] [Thread-1 (]: On model.points_balance_report.improved_crm__customers: /* {"app": "dbt", "dbt_version": "1.7.7", "profile_name": "points_balance_profile", "target_name": "dev", "node_id": "model.points_balance_report.improved_crm__customers"} */
+
+      select
+          column_name,
+          data_type,
+          character_maximum_length,
+          numeric_precision,
+          numeric_scale
+
+      from INFORMATION_SCHEMA.columns
+      where table_name = 'improved_crm__customers__dbt_tmp021136932840'
+        
+      order by ordinal_position
+
+  
+[0m02:11:37.222514 [debug] [Thread-1 (]: SQL status: SELECT 3 in 0.0 seconds
+[0m02:11:37.235465 [debug] [Thread-1 (]: Using postgres connection "model.points_balance_report.improved_crm__customers"
+[0m02:11:37.236337 [debug] [Thread-1 (]: On model.points_balance_report.improved_crm__customers: /* {"app": "dbt", "dbt_version": "1.7.7", "profile_name": "points_balance_profile", "target_name": "dev", "node_id": "model.points_balance_report.improved_crm__customers"} */
+
+      select
+          column_name,
+          data_type,
+          character_maximum_length,
+          numeric_precision,
+          numeric_scale
+
+      from "datamart".INFORMATION_SCHEMA.columns
+      where table_name = 'improved_crm__customers'
+        
+        and table_schema = 'datamart'
+        
+      order by ordinal_position
+
+  
+[0m02:11:37.244127 [debug] [Thread-1 (]: SQL status: SELECT 3 in 0.0 seconds
+[0m02:11:37.255289 [debug] [Thread-1 (]: Using postgres connection "model.points_balance_report.improved_crm__customers"
+[0m02:11:37.255846 [debug] [Thread-1 (]: On model.points_balance_report.improved_crm__customers: /* {"app": "dbt", "dbt_version": "1.7.7", "profile_name": "points_balance_profile", "target_name": "dev", "node_id": "model.points_balance_report.improved_crm__customers"} */
+
+      select
+          column_name,
+          data_type,
+          character_maximum_length,
+          numeric_precision,
+          numeric_scale
+
+      from "datamart".INFORMATION_SCHEMA.columns
+      where table_name = 'improved_crm__customers'
+        
+        and table_schema = 'datamart'
+        
+      order by ordinal_position
+
+  
+[0m02:11:37.261276 [debug] [Thread-1 (]: SQL status: SELECT 3 in 0.0 seconds
+[0m02:11:37.276771 [debug] [Thread-1 (]: Writing runtime sql for node "model.points_balance_report.improved_crm__customers"
+[0m02:11:37.278590 [debug] [Thread-1 (]: Using postgres connection "model.points_balance_report.improved_crm__customers"
+[0m02:11:37.279126 [debug] [Thread-1 (]: On model.points_balance_report.improved_crm__customers: /* {"app": "dbt", "dbt_version": "1.7.7", "profile_name": "points_balance_profile", "target_name": "dev", "node_id": "model.points_balance_report.improved_crm__customers"} */
+
+      
+        
+            delete from "datamart"."datamart"."improved_crm__customers"
+            where (
+                concat(tenant_date, customer_id)) in (
+                select (concat(tenant_date, customer_id))
+                from "improved_crm__customers__dbt_tmp021136932840"
+            );
+
+        
+    
+
+    insert into "datamart"."datamart"."improved_crm__customers" ("id", "external_id", "tenant_id")
+    (
+        select "id", "external_id", "tenant_id"
+        from "improved_crm__customers__dbt_tmp021136932840"
+    )
+  
+[0m02:11:37.283466 [debug] [Thread-1 (]: Postgres adapter: Postgres error: column "tenant_date" does not exist
+LINE 8:                 select (concat(tenant_date, customer_id))
+                                       ^
+
+[0m02:11:37.283945 [debug] [Thread-1 (]: On model.points_balance_report.improved_crm__customers: ROLLBACK
+[0m02:11:37.285065 [debug] [Thread-1 (]: Timing info for model.points_balance_report.improved_crm__customers (execute): 02:11:36.908817 => 02:11:37.284748
+[0m02:11:37.285558 [debug] [Thread-1 (]: On model.points_balance_report.improved_crm__customers: Close
+[0m02:11:37.394807 [debug] [Thread-1 (]: Database Error in model improved_crm__customers (models/improved_crm__customers.sql)
+  column "tenant_date" does not exist
+  LINE 8:                 select (concat(tenant_date, customer_id))
+                                         ^
+  compiled Code at target/run/points_balance_report/models/improved_crm__customers.sql
+[0m02:11:37.395999 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '69bbe68c-ac6d-4e21-b277-a71e9adecafc', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x113d89060>]}
+[0m02:11:37.397237 [error] [Thread-1 (]: 1 of 1 ERROR creating sql incremental model datamart.improved_crm__customers ... [[31mERROR[0m in 0.50s]
+[0m02:11:37.398397 [debug] [Thread-1 (]: Finished running node model.points_balance_report.improved_crm__customers
+[0m02:11:37.400887 [debug] [MainThread]: Using postgres connection "master"
+[0m02:11:37.401498 [debug] [MainThread]: On master: BEGIN
+[0m02:11:37.402006 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m02:11:37.424842 [debug] [MainThread]: SQL status: BEGIN in 0.0 seconds
+[0m02:11:37.425562 [debug] [MainThread]: On master: COMMIT
+[0m02:11:37.425971 [debug] [MainThread]: Using postgres connection "master"
+[0m02:11:37.426340 [debug] [MainThread]: On master: COMMIT
+[0m02:11:37.427404 [debug] [MainThread]: SQL status: COMMIT in 0.0 seconds
+[0m02:11:37.427935 [debug] [MainThread]: On master: Close
+[0m02:11:37.428755 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m02:11:37.429089 [debug] [MainThread]: Connection 'model.points_balance_report.improved_crm__customers' was properly closed.
+[0m02:11:37.429466 [info ] [MainThread]: 
+[0m02:11:37.429841 [info ] [MainThread]: Finished running 1 incremental model in 0 hours 0 minutes and 1.22 seconds (1.22s).
+[0m02:11:37.430529 [debug] [MainThread]: Command end result
+[0m02:11:37.439729 [info ] [MainThread]: 
+[0m02:11:37.440238 [info ] [MainThread]: [31mCompleted with 1 error and 0 warnings:[0m
+[0m02:11:37.440624 [info ] [MainThread]: 
+[0m02:11:37.440930 [error] [MainThread]:   Database Error in model improved_crm__customers (models/improved_crm__customers.sql)
+  column "tenant_date" does not exist
+  LINE 8:                 select (concat(tenant_date, customer_id))
+                                         ^
+  compiled Code at target/run/points_balance_report/models/improved_crm__customers.sql
+[0m02:11:37.441231 [info ] [MainThread]: 
+[0m02:11:37.441536 [info ] [MainThread]: Done. PASS=0 WARN=0 ERROR=1 SKIP=0 TOTAL=1
+[0m02:11:37.443526 [debug] [MainThread]: Resource report: {"command_name": "run", "command_wall_clock_time": 3.2403586, "process_user_time": 2.714639, "process_kernel_time": 0.40764, "process_mem_max_rss": "133152768", "command_success": false, "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m02:11:37.444083 [debug] [MainThread]: Command `dbt run` failed at 02:11:37.443960 after 3.24 seconds
+[0m02:11:37.444475 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107dc95a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x113a67be0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x113b82140>]}
+[0m02:11:37.444890 [debug] [MainThread]: Flushing usage events
+[0m02:13:52.860047 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1039a01c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1058ada50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1058aff10>]}
+
+
+============================== 02:13:52.866165 | 5272ddfb-32dd-4356-a472-09bb0be2fb84 ==============================
+[0m02:13:52.866165 [info ] [MainThread]: Running with dbt=1.7.7
+[0m02:13:52.866548 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'profiles_dir': '/Users/dimas.adiluhung/points_balance_report/profiles', 'log_path': '/Users/dimas.adiluhung/points_balance_report/logs', 'fail_fast': 'False', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'log_format': 'default', 'invocation_command': 'dbt run --model improved_crm__customers --profiles-dir /Users/dimas.adiluhung/points_balance_report/profiles', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m02:13:53.041721 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '5272ddfb-32dd-4356-a472-09bb0be2fb84', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1059b7ac0>]}
+[0m02:13:53.091731 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '5272ddfb-32dd-4356-a472-09bb0be2fb84', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1059b44f0>]}
+[0m02:13:53.092751 [info ] [MainThread]: Registered adapter: postgres=1.7.7
+[0m02:13:53.110004 [debug] [MainThread]: checksum: 54188551c516f4dd1c42b8d9c289f2bf49f18ae42632e2ba36a64ad29fd60da4, vars: {}, profile: , target: , version: 1.7.7
+[0m02:13:53.208868 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 2 files changed.
+[0m02:13:53.209333 [debug] [MainThread]: Partial parsing: updated file: points_balance_report://models/improved_ledger__points_tranche_snapshots.sql
+[0m02:13:53.209623 [debug] [MainThread]: Partial parsing: updated file: points_balance_report://models/improved_crm__customers.sql
+[0m02:13:53.293029 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '5272ddfb-32dd-4356-a472-09bb0be2fb84', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10661c0d0>]}
+[0m02:13:53.315138 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '5272ddfb-32dd-4356-a472-09bb0be2fb84', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1065ca140>]}
+[0m02:13:53.315492 [info ] [MainThread]: Found 4 models, 8 seeds, 6 sources, 0 exposures, 0 metrics, 401 macros, 0 groups, 0 semantic models
+[0m02:13:53.315758 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '5272ddfb-32dd-4356-a472-09bb0be2fb84', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1065c94b0>]}
+[0m02:13:53.316553 [info ] [MainThread]: 
+[0m02:13:53.317024 [debug] [MainThread]: Acquiring new postgres connection 'master'
+[0m02:13:53.317670 [debug] [ThreadPool]: Acquiring new postgres connection 'list_datamart'
+[0m02:13:53.323763 [debug] [ThreadPool]: Using postgres connection "list_datamart"
+[0m02:13:53.324023 [debug] [ThreadPool]: On list_datamart: /* {"app": "dbt", "dbt_version": "1.7.7", "profile_name": "points_balance_profile", "target_name": "dev", "connection_name": "list_datamart"} */
+
+    select distinct nspname from pg_namespace
+  
+[0m02:13:53.324254 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m02:13:53.496804 [debug] [ThreadPool]: SQL status: SELECT 10 in 0.0 seconds
+[0m02:13:53.498077 [debug] [ThreadPool]: On list_datamart: Close
+[0m02:13:53.499632 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_datamart, now list_datamart_datamart)
+[0m02:13:53.504397 [debug] [ThreadPool]: Using postgres connection "list_datamart_datamart"
+[0m02:13:53.504890 [debug] [ThreadPool]: On list_datamart_datamart: BEGIN
+[0m02:13:53.505200 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m02:13:53.526131 [debug] [ThreadPool]: SQL status: BEGIN in 0.0 seconds
+[0m02:13:53.526571 [debug] [ThreadPool]: Using postgres connection "list_datamart_datamart"
+[0m02:13:53.526893 [debug] [ThreadPool]: On list_datamart_datamart: /* {"app": "dbt", "dbt_version": "1.7.7", "profile_name": "points_balance_profile", "target_name": "dev", "connection_name": "list_datamart_datamart"} */
+select
+      'datamart' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'datamart'
+    union all
+    select
+      'datamart' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'datamart'
+    union all
+    select
+      'datamart' as database,
+      matviewname as name,
+      schemaname as schema,
+      'materialized_view' as type
+    from pg_matviews
+    where schemaname ilike 'datamart'
+  
+[0m02:13:53.549165 [debug] [ThreadPool]: SQL status: SELECT 7 in 0.0 seconds
+[0m02:13:53.550583 [debug] [ThreadPool]: On list_datamart_datamart: ROLLBACK
+[0m02:13:53.551260 [debug] [ThreadPool]: On list_datamart_datamart: Close
+[0m02:13:53.556769 [debug] [MainThread]: Using postgres connection "master"
+[0m02:13:53.557116 [debug] [MainThread]: On master: BEGIN
+[0m02:13:53.557396 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m02:13:53.571970 [debug] [MainThread]: SQL status: BEGIN in 0.0 seconds
+[0m02:13:53.572387 [debug] [MainThread]: Using postgres connection "master"
+[0m02:13:53.572758 [debug] [MainThread]: On master: /* {"app": "dbt", "dbt_version": "1.7.7", "profile_name": "points_balance_profile", "target_name": "dev", "connection_name": "master"} */
+with relation as (
+        select
+            pg_rewrite.ev_class as class,
+            pg_rewrite.oid as id
+        from pg_rewrite
+    ),
+    class as (
+        select
+            oid as id,
+            relname as name,
+            relnamespace as schema,
+            relkind as kind
+        from pg_class
+    ),
+    dependency as (
+        select distinct
+            pg_depend.objid as id,
+            pg_depend.refobjid as ref
+        from pg_depend
+    ),
+    schema as (
+        select
+            pg_namespace.oid as id,
+            pg_namespace.nspname as name
+        from pg_namespace
+        where nspname != 'information_schema' and nspname not like 'pg\_%'
+    ),
+    referenced as (
+        select
+            relation.id AS id,
+            referenced_class.name ,
+            referenced_class.schema ,
+            referenced_class.kind
+        from relation
+        join class as referenced_class on relation.class=referenced_class.id
+        where referenced_class.kind in ('r', 'v', 'm')
+    ),
+    relationships as (
+        select
+            referenced.name as referenced_name,
+            referenced.schema as referenced_schema_id,
+            dependent_class.name as dependent_name,
+            dependent_class.schema as dependent_schema_id,
+            referenced.kind as kind
+        from referenced
+        join dependency on referenced.id=dependency.id
+        join class as dependent_class on dependency.ref=dependent_class.id
+        where
+            (referenced.name != dependent_class.name or
+             referenced.schema != dependent_class.schema)
+    )
+
+    select
+        referenced_schema.name as referenced_schema,
+        relationships.referenced_name as referenced_name,
+        dependent_schema.name as dependent_schema,
+        relationships.dependent_name as dependent_name
+    from relationships
+    join schema as dependent_schema on relationships.dependent_schema_id=dependent_schema.id
+    join schema as referenced_schema on relationships.referenced_schema_id=referenced_schema.id
+    group by referenced_schema, referenced_name, dependent_schema, dependent_name
+    order by referenced_schema, referenced_name, dependent_schema, dependent_name;
+[0m02:13:53.600291 [debug] [MainThread]: SQL status: SELECT 0 in 0.0 seconds
+[0m02:13:53.601213 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '5272ddfb-32dd-4356-a472-09bb0be2fb84', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1064904f0>]}
+[0m02:13:53.601591 [debug] [MainThread]: On master: ROLLBACK
+[0m02:13:53.602120 [debug] [MainThread]: Using postgres connection "master"
+[0m02:13:53.602427 [debug] [MainThread]: On master: BEGIN
+[0m02:13:53.602938 [debug] [MainThread]: SQL status: BEGIN in 0.0 seconds
+[0m02:13:53.603204 [debug] [MainThread]: On master: COMMIT
+[0m02:13:53.603441 [debug] [MainThread]: Using postgres connection "master"
+[0m02:13:53.603672 [debug] [MainThread]: On master: COMMIT
+[0m02:13:53.604122 [debug] [MainThread]: SQL status: COMMIT in 0.0 seconds
+[0m02:13:53.604357 [debug] [MainThread]: On master: Close
+[0m02:13:53.604829 [info ] [MainThread]: Concurrency: 8 threads (target='dev')
+[0m02:13:53.605089 [info ] [MainThread]: 
+[0m02:13:53.610879 [debug] [Thread-1 (]: Began running node model.points_balance_report.improved_crm__customers
+[0m02:13:53.611326 [info ] [Thread-1 (]: 1 of 1 START sql table model datamart.improved_crm__customers .................. [RUN]
+[0m02:13:53.611820 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly list_datamart_datamart, now model.points_balance_report.improved_crm__customers)
+[0m02:13:53.612097 [debug] [Thread-1 (]: Began compiling node model.points_balance_report.improved_crm__customers
+[0m02:13:53.618304 [debug] [Thread-1 (]: Writing injected SQL for node "model.points_balance_report.improved_crm__customers"
+[0m02:13:53.619080 [debug] [Thread-1 (]: Timing info for model.points_balance_report.improved_crm__customers (compile): 02:13:53.612269 => 02:13:53.618919
+[0m02:13:53.619360 [debug] [Thread-1 (]: Began executing node model.points_balance_report.improved_crm__customers
+[0m02:13:53.643226 [debug] [Thread-1 (]: Writing runtime sql for node "model.points_balance_report.improved_crm__customers"
+[0m02:13:53.649488 [debug] [Thread-1 (]: Using postgres connection "model.points_balance_report.improved_crm__customers"
+[0m02:13:53.649798 [debug] [Thread-1 (]: On model.points_balance_report.improved_crm__customers: BEGIN
+[0m02:13:53.650054 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m02:13:53.667208 [debug] [Thread-1 (]: SQL status: BEGIN in 0.0 seconds
+[0m02:13:53.667598 [debug] [Thread-1 (]: Using postgres connection "model.points_balance_report.improved_crm__customers"
+[0m02:13:53.667876 [debug] [Thread-1 (]: On model.points_balance_report.improved_crm__customers: /* {"app": "dbt", "dbt_version": "1.7.7", "profile_name": "points_balance_profile", "target_name": "dev", "node_id": "model.points_balance_report.improved_crm__customers"} */
+
+  
+    
+
+  create  table "datamart"."datamart"."improved_crm__customers__dbt_tmp"
+  
+  
+    as
+  
+  (
+     
+
+SELECT 
+  *
+FROM
+  "datamart"."raw_data"."crm__customers_tenant_a"UNION ALL
+
+ 
+
+SELECT 
+  *
+FROM
+  "datamart"."raw_data"."crm__customers_tenant_b"UNION ALL
+
+ 
+
+SELECT 
+  *
+FROM
+  "datamart"."raw_data"."crm__customers_tenant_c"
+  );
+  
+[0m02:13:53.691632 [debug] [Thread-1 (]: SQL status: SELECT 24 in 0.0 seconds
+[0m02:13:53.695825 [debug] [Thread-1 (]: Using postgres connection "model.points_balance_report.improved_crm__customers"
+[0m02:13:53.696131 [debug] [Thread-1 (]: On model.points_balance_report.improved_crm__customers: /* {"app": "dbt", "dbt_version": "1.7.7", "profile_name": "points_balance_profile", "target_name": "dev", "node_id": "model.points_balance_report.improved_crm__customers"} */
+alter table "datamart"."datamart"."improved_crm__customers" rename to "improved_crm__customers__dbt_backup"
+[0m02:13:53.698106 [debug] [Thread-1 (]: SQL status: ALTER TABLE in 0.0 seconds
+[0m02:13:53.700051 [debug] [Thread-1 (]: Using postgres connection "model.points_balance_report.improved_crm__customers"
+[0m02:13:53.700322 [debug] [Thread-1 (]: On model.points_balance_report.improved_crm__customers: /* {"app": "dbt", "dbt_version": "1.7.7", "profile_name": "points_balance_profile", "target_name": "dev", "node_id": "model.points_balance_report.improved_crm__customers"} */
+alter table "datamart"."datamart"."improved_crm__customers__dbt_tmp" rename to "improved_crm__customers"
+[0m02:13:53.701574 [debug] [Thread-1 (]: SQL status: ALTER TABLE in 0.0 seconds
+[0m02:13:53.713648 [debug] [Thread-1 (]: On model.points_balance_report.improved_crm__customers: COMMIT
+[0m02:13:53.713998 [debug] [Thread-1 (]: Using postgres connection "model.points_balance_report.improved_crm__customers"
+[0m02:13:53.714257 [debug] [Thread-1 (]: On model.points_balance_report.improved_crm__customers: COMMIT
+[0m02:13:53.723966 [debug] [Thread-1 (]: SQL status: COMMIT in 0.0 seconds
+[0m02:13:53.728055 [debug] [Thread-1 (]: Applying DROP to: "datamart"."datamart"."improved_crm__customers__dbt_backup"
+[0m02:13:53.730724 [debug] [Thread-1 (]: Using postgres connection "model.points_balance_report.improved_crm__customers"
+[0m02:13:53.730997 [debug] [Thread-1 (]: On model.points_balance_report.improved_crm__customers: /* {"app": "dbt", "dbt_version": "1.7.7", "profile_name": "points_balance_profile", "target_name": "dev", "node_id": "model.points_balance_report.improved_crm__customers"} */
+drop table if exists "datamart"."datamart"."improved_crm__customers__dbt_backup" cascade
+[0m02:13:53.742681 [debug] [Thread-1 (]: SQL status: DROP TABLE in 0.0 seconds
+[0m02:13:53.743677 [debug] [Thread-1 (]: Timing info for model.points_balance_report.improved_crm__customers (execute): 02:13:53.619528 => 02:13:53.743529
+[0m02:13:53.743959 [debug] [Thread-1 (]: On model.points_balance_report.improved_crm__customers: Close
+[0m02:13:53.744455 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '5272ddfb-32dd-4356-a472-09bb0be2fb84', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106659930>]}
+[0m02:13:53.744844 [info ] [Thread-1 (]: 1 of 1 OK created sql table model datamart.improved_crm__customers ............. [[32mSELECT 24[0m in 0.13s]
+[0m02:13:53.745213 [debug] [Thread-1 (]: Finished running node model.points_balance_report.improved_crm__customers
+[0m02:13:53.746056 [debug] [MainThread]: Using postgres connection "master"
+[0m02:13:53.746284 [debug] [MainThread]: On master: BEGIN
+[0m02:13:53.746494 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m02:13:53.771380 [debug] [MainThread]: SQL status: BEGIN in 0.0 seconds
+[0m02:13:53.771652 [debug] [MainThread]: On master: COMMIT
+[0m02:13:53.771886 [debug] [MainThread]: Using postgres connection "master"
+[0m02:13:53.772113 [debug] [MainThread]: On master: COMMIT
+[0m02:13:53.772865 [debug] [MainThread]: SQL status: COMMIT in 0.0 seconds
+[0m02:13:53.773114 [debug] [MainThread]: On master: Close
+[0m02:13:53.773558 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m02:13:53.773784 [debug] [MainThread]: Connection 'model.points_balance_report.improved_crm__customers' was properly closed.
+[0m02:13:53.774029 [info ] [MainThread]: 
+[0m02:13:53.774278 [info ] [MainThread]: Finished running 1 table model in 0 hours 0 minutes and 0.46 seconds (0.46s).
+[0m02:13:53.774717 [debug] [MainThread]: Command end result
+[0m02:13:53.791710 [info ] [MainThread]: 
+[0m02:13:53.792062 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m02:13:53.792310 [info ] [MainThread]: 
+[0m02:13:53.792562 [info ] [MainThread]: Done. PASS=1 WARN=0 ERROR=0 SKIP=0 TOTAL=1
+[0m02:13:53.802139 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": true, "command_wall_clock_time": 0.9830399, "process_user_time": 1.618305, "process_kernel_time": 0.254144, "process_mem_max_rss": "122290176", "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m02:13:53.802594 [debug] [MainThread]: Command `dbt run` succeeded at 02:13:53.802495 after 0.98 seconds
+[0m02:13:53.802904 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1039a01c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1059b7ac0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1064904f0>]}
+[0m02:13:53.803202 [debug] [MainThread]: Flushing usage events
+[0m02:14:02.608826 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1071bcdc0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x109ad9720>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x109ad9960>]}
+
+
+============================== 02:14:02.611863 | 997dc875-fada-48b0-8413-3616ba2362dd ==============================
+[0m02:14:02.611863 [info ] [MainThread]: Running with dbt=1.7.7
+[0m02:14:02.612272 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/dimas.adiluhung/points_balance_report/profiles', 'version_check': 'True', 'fail_fast': 'False', 'log_path': '/Users/dimas.adiluhung/points_balance_report/logs', 'debug': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'introspect': 'True', 'invocation_command': 'dbt test --model improved_crm__customers --profiles-dir /Users/dimas.adiluhung/points_balance_report/profiles', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m02:14:02.774668 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '997dc875-fada-48b0-8413-3616ba2362dd', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x109adbf70>]}
+[0m02:14:02.824696 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '997dc875-fada-48b0-8413-3616ba2362dd', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x109be0e80>]}
+[0m02:14:02.826384 [info ] [MainThread]: Registered adapter: postgres=1.7.7
+[0m02:14:02.837922 [debug] [MainThread]: checksum: 54188551c516f4dd1c42b8d9c289f2bf49f18ae42632e2ba36a64ad29fd60da4, vars: {}, profile: , target: , version: 1.7.7
+[0m02:14:02.929325 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m02:14:02.929629 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m02:14:02.933569 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '997dc875-fada-48b0-8413-3616ba2362dd', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10b0360b0>]}
+[0m02:14:02.947364 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '997dc875-fada-48b0-8413-3616ba2362dd', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10aff8d90>]}
+[0m02:14:02.947682 [info ] [MainThread]: Found 4 models, 8 seeds, 6 sources, 0 exposures, 0 metrics, 401 macros, 0 groups, 0 semantic models
+[0m02:14:02.947937 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '997dc875-fada-48b0-8413-3616ba2362dd', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10aff8fd0>]}
+[0m02:14:02.948690 [info ] [MainThread]: 
+[0m02:14:02.948921 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m02:14:02.949235 [debug] [MainThread]: Command end result
+[0m02:14:03.065452 [debug] [MainThread]: Resource report: {"command_name": "test", "command_success": true, "command_wall_clock_time": 0.49777287, "process_user_time": 1.454073, "process_kernel_time": 0.239817, "process_mem_max_rss": "112607232", "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m02:14:03.066151 [debug] [MainThread]: Command `dbt test` succeeded at 02:14:03.066003 after 0.50 seconds
+[0m02:14:03.066651 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1071bcdc0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10a809e40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10aff8f40>]}
+[0m02:14:03.067126 [debug] [MainThread]: Flushing usage events

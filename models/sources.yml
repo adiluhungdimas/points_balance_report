@@ -1,0 +1,13 @@
+version: 2
+
+sources:
+  - name: raw_data
+    database: datamart  
+    schema: raw_data  
+    tables:
+      - name: crm__customers_tenant_a
+      - name: crm__customers_tenant_b
+      - name: crm__customers_tenant_c
+      - name: ledger__points_tranche_snapshots_tenant_a
+      - name: ledger__points_tranche_snapshots_tenant_b
+      - name: ledger__points_tranche_snapshots_tenant_c

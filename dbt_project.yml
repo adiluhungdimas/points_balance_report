@@ -25,4 +25,4 @@ log-path: "logs"
 packages-install-path: "dbt_packages"
 
 vars:
-  tenant_date: null
+  tenant_date: DATE('2023-01-01')
